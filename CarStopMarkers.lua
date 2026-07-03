@@ -114,7 +114,7 @@ return {
         },
     },   -- Morganstown closed
 
-    ["Leighton Stepford Road"] = {
+    ["Leighton Step Rd"] = {
         ["2"] = {
             markers = {
                 ["S"] = Vector3.new(236.3296, 11.5001, -36423.3203),
