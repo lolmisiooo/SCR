@@ -1,4 +1,6 @@
-byClass = {
+-- TrainCoaches.lua
+return {
+  byClass = {
   -- Connect
     ["158/0"] = 3,
     ["158/9"] = 2,
@@ -105,4 +107,5 @@ byClass = {
     ["755/4"] = 4,
     ["387 (Double)"] = 8,
     ["802 Double"] = 10,
+  }
 }
