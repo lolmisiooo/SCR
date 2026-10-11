@@ -136,8 +136,8 @@ return {
                 { label = "Morganstown P5 HST S",                            pos = Vector3.new(   87.9074,    15.2481, -10008.8252),  look = Vector3.new( -0.0089,   0.0000,  -1.0000) },
 
                 -- ── St. Helens Bridge ───────────────────────
-                { label = "St. Helens Bridge P2 HST 2+4",                    pos = Vector3.new(  -23.6551,    36.4473, 12787.7305),  look = Vector3.new(  0.0059,  -0.0000,  -1.0000) },
-                { label = "St. Helens Bridge P2 HST 2+5",                    pos = Vector3.new(  -27.7835,    37.5287, 12848.0771),  look = Vector3.new( -0.0465,  -0.0000,  -0.9989) },
+                { label = "St Helens Bridge P2 HST 2+4",                    pos = Vector3.new(  -23.6551,    36.4473, 12787.7305),  look = Vector3.new(  0.0059,  -0.0000,  -1.0000) },
+                { label = "St Helens Bridge P2 HST 2+5",                    pos = Vector3.new(  -27.7835,    37.5287, 12848.0771),  look = Vector3.new( -0.0465,  -0.0000,  -0.9989) },
 
             },
         },
