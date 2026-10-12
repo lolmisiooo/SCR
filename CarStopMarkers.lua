@@ -52,6 +52,7 @@ return {
     -- ROUTE / DESTINATION GROUPS
     -- ══════════════════════════════════════════
     groups = {
+                    -- ── Route R080  →  Llyn-by-the-Sea ──────
             {
                 route = "R080",
                 dest  = "Llyn-by-the-Sea",
