@@ -67,8 +67,8 @@ return {
         { label = "Leighton City P6 HST 2+4",        pos = Vector3.new( 2022.9917,  8.0481, -37496.9297), look = Vector3.new( 0.9396, -0.0000,  0.3422) },
 
         -- ── St. Helens Bridge ──────────────────
-        { label = "St. Helens Bridge P1 HST 2+4",    pos = Vector3.new(  -97.2319, 28.8480,  12318.4697), look = Vector3.new( 0.0621, -0.0000,  0.9981) },
-        { label = "St. Helens Bridge P2 HST 2+4",    pos = Vector3.new(  -23.7867, 36.5465,  12787.8682), look = Vector3.new(-0.0499,  0.0000, -0.9988) },
+        { label = "St Helens Bridge P1 HST 2+4",    pos = Vector3.new(  -97.2319, 28.8480,  12318.4697), look = Vector3.new( 0.0621, -0.0000,  0.9981) },
+        { label = "St Helens Bridge P2 HST 2+4",    pos = Vector3.new(  -23.7867, 36.5465,  12787.8682), look = Vector3.new(-0.0499,  0.0000, -0.9988) },
 
         -- ── Morganstown ────────────────────────
         { label = "Morganstown P2 HST ALL",           pos = Vector3.new(  -13.7378, 15.2481, -10699.8691), look = Vector3.new( 0.0194, -0.0000,  0.9998) },
