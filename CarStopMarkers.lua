@@ -252,8 +252,10 @@ return {
                 { label = "Hampton Hargate P4 HST S",                        pos = Vector3.new(   45.3417,     8.0477, -15022.2422),  look = Vector3.new(  0.0266,   0.0000,   0.9996) },
 
                 -- ── Leighton Stepford Road ──────────────────
-                { label = "Leighton Stepford Road P4 2-4",                   pos = Vector3.new(  286.4809,     8.0481, -35993.6406),  look = Vector3.new( -0.0022,  -0.0000,  -1.0000) },
-                { label = "Leighton Stepford Road P5 2-4",                   pos = Vector3.new(  323.6160,     8.0481, -35993.7344),  look = Vector3.new(  0.0342,   0.0000,  -0.9994) },
+                { label = "Leighton Stepford Road P2 2-4",                   pos = Vector3.new(  235.9696,     8.0481, -36302.8047),  look = Vector3.new(  0.0006,  -0.0000,   1.0000) },
+                { label = "Leighton Stepford Road P2 S",                     pos = Vector3.new(  238.0582,     8.0481, -36424.0898),  look = Vector3.new(  0.0169,   0.0000,   0.9999) },
+                { label = "Leighton Stepford Road P3 2-4",                   pos = Vector3.new(  266.7312,     8.0481, -36302.6680),  look = Vector3.new(  0.0046,  -0.0000,   1.0000) },
+                { label = "Leighton Stepford Road P3 S",                     pos = Vector3.new(  267.1041,     8.0481, -36424.0586),  look = Vector3.new(  0.0000,   0.0000,   1.0000) },
                 
                 -- ── Leighton City ───────────────────────────
                 { label = "Leighton City P3 HST 2+4",                        pos = Vector3.new( 2023.5271,     8.0481, -37577.3867),  look = Vector3.new(  1.0000,   0.0000,   0.0018) },
