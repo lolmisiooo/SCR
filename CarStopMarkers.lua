@@ -258,17 +258,14 @@ return {
                 { label = "Leighton Stepford Road P3 S",                     pos = Vector3.new(  267.1041,     8.0481, -36424.0586),  look = Vector3.new(  0.0000,   0.0000,   1.0000) },
                 
                 -- ── Leighton City ───────────────────────────
-                { label = "Leighton City P3 HST 2+4",                        pos = Vector3.new( 2023.5271,     8.0481, -37577.3867),  look = Vector3.new(  1.0000,   0.0000,   0.0018) },
-                { label = "Leighton City P3 HST 2+5",                        pos = Vector3.new( 1925.4828,    15.2482, -37578.9688),  look = Vector3.new(  0.9993,   0.0000,   0.0361) },
-                { label = "Leighton City P4 HST 2+4",                        pos = Vector3.new( 2023.7861,     8.0481, -37567.1523),  look = Vector3.new(  0.9998,  -0.0000,   0.0191) },
-                { label = "Leighton City P4 HST 2+5",                        pos = Vector3.new( 1925.8259,    15.0481, -37566.3359),  look = Vector3.new(  1.0000,  -0.0000,  -0.0000) },
-                { label = "Leighton City P4 HST S",                          pos = Vector3.new( 1764.4634,    15.1482, -37571.4062),  look = Vector3.new(  0.9981,   0.0000,   0.0620) },
-                { label = "Leighton City P5 HST S",                          pos = Vector3.new( 1764.4341,    15.2482, -37517.6484),  look = Vector3.new(  0.9974,   0.0000,   0.0716) },
-                { label = "Leighton City P5 HST 2+5",                        pos = Vector3.new( 1925.4204,    15.2482, -37509.0742),  look = Vector3.new(  1.0000,  -0.0000,   0.0000) },
-                { label = "Leighton City P5 HST 2+4",                        pos = Vector3.new( 2023.4073,     8.0481, -37506.9766),  look = Vector3.new(  0.9998,   0.0000,  -0.0215) },
-                { label = "Leighton City P6 HST S",                          pos = Vector3.new( 1764.1956,    15.2482, -37507.1758),  look = Vector3.new(  0.9969,   0.0000,   0.0792) },
-                { label = "Leighton City P6 HST 2+5",                        pos = Vector3.new( 1925.8170,    15.0481, -37496.7695),  look = Vector3.new(  0.9998,  -0.0000,   0.0222) },
-                { label = "Leighton City P6 HST 2+4",                        pos = Vector3.new( 2023.3121,     8.0481, -37496.8867),  look = Vector3.new(  0.9992,  -0.0000,  -0.0412) },
+                { label = "Leighton City P1 HST 2+4/5",                      pos = Vector3.new( 2487.9382,     8.0481, -37629.4570),  look = Vector3.new( -0.9996,   0.0000,  -0.0274) },
+                { label = "Leighton City P1 HST S",                          pos = Vector3.new( 2584.2246,     8.0481, -37623.8594),  look = Vector3.new( -0.9980,   0.0000,  -0.0625) },
+                { label = "Leighton City P2 HST 2+4/5",                      pos = Vector3.new( 2487.9717,     8.0481, -37611.3086),  look = Vector3.new( -1.0000,   0.0000,   0.0000) },
+                { label = "Leighton City P2 HST S",                          pos = Vector3.new( 2584.0920,     8.0481, -37610.9219),  look = Vector3.new( -1.0000,   0.0000,   0.0081) },
+                { label = "Leighton City P3 HST 2+4/5",                      pos = Vector3.new( 2487.9136,     8.0481, -37581.4062),  look = Vector3.new( -1.0000,  -0.0000,   0.0000) },
+                { label = "Leighton City P3 HST S",                          pos = Vector3.new( 2584.1533,     8.0481, -37581.4062),  look = Vector3.new( -1.0000,   0.0000,   0.0000) },
+                { label = "Leighton City P4 HST 2+4/5",                      pos = Vector3.new( 2487.9709,     8.0481, -37563.2930),  look = Vector3.new( -0.9999,   0.0000,   0.0158) },
+                { label = "Leighton City P4 HST S",                          pos = Vector3.new( 2584.1492,     8.0481, -37567.9492),  look = Vector3.new( -0.9992,   0.0000,   0.0398) },
 
                 -- ── Edgemead ────────────────────────────────────
                 { label = "Edgemead P1 HST 2+5",                             pos = Vector3.new(11461.1260,     3.6481, -37642.6406),  look = Vector3.new( -1.0000,  -0.0000,   0.0000) },
