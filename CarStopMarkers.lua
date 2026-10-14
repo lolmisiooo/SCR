@@ -281,6 +281,28 @@ return {
             },
         },
 
+                            -- ── Route R079  →  Stepford Central ──────
+            {
+                route = "R079",
+                dest  = "Stepford Central",
+    
+    markers = {
+        -- ── St. Helens Bridge ──────────────────
+        { label = "St Helens Bridge P2 HST 2+4",    pos = Vector3.new(  -23.7867, 36.5465,  12787.8682), look = Vector3.new(-0.0499,  0.0000, -0.9988) },
+
+           },
+        },
+                            -- ── Route R079  →  Benton ──────
+            {
+                route = "R079",
+                dest  = "Benton",
+    
+    markers = {
+        -- ── St. Helens Bridge ──────────────────
+        { label = "St Helens Bridge P1 HST 2+4",    pos = Vector3.new(  -97.2319, 28.8480,  12318.4697), look = Vector3.new( 0.0621, -0.0000,  0.9981) },
+           },
+        },
+
 
         -- ──────────────────────────────────────
         -- Example: R080 terminating at Leighton City
