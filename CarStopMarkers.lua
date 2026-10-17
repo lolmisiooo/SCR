@@ -331,6 +331,10 @@ return {
         { label = "Benton P4 Metro 3",                               pos = Vector3.new(-2856.8179,     8.0481, -5511.3491),  look = Vector3.new( -0.0044,   0.0000,   1.0000) },
         { label = "Benton P2 2-3",                                   pos = Vector3.new(-2927.6299,     8.0481, -5510.4385),  look = Vector3.new(  0.0263,  -0.0000,   0.9997) },
         { label = "Benton P1 3-4",                                   pos = Vector3.new(-2959.8315,     8.0481, -5602.7534),  look = Vector3.new( -0.0253,  -0.0000,   0.9997) },
+
+        -- ── Port Benton ─────────────────────────────────
+        { label = "Port Benton P1 2-3",                              pos = Vector3.new(-1649.7078,     8.0477, -8114.5200),  look = Vector3.new( -0.9999,   0.0000,  -0.0128) },
+        { label = "Port Benton P3 Metro ALL",                        pos = Vector3.new(-1606.3739,     8.0477, -8051.6655),  look = Vector3.new( -0.9982,   0.0000,   0.0606) },
            },
         },
 
@@ -364,6 +368,10 @@ return {
         { label = "Benton P11 Metro 3",                              pos = Vector3.new(-2679.6040,     8.0481, -5346.3291),  look = Vector3.new( -0.0052,  -0.0000,  -1.0000) },
         { label = "Benton P12 Metro 3",                              pos = Vector3.new(-2659.6323,     8.0481, -5345.9629),  look = Vector3.new( -0.0083,   0.0000,  -1.0000) },
         { label = "Benton P13 Metro 3",                              pos = Vector3.new(-2621.7998,     8.0481, -5346.1606),  look = Vector3.new(  0.0151,   0.0000,  -0.9999) },
+
+        -- ── Port Benton ─────────────────────────────────
+        { label = "Port Benton P2 2-3",                              pos = Vector3.new(-1776.4315,     8.0477, -8061.8232),  look = Vector3.new(  1.0000,   0.0000,   0.0040) },
+        { label = "Port Benton P3 4",                                pos = Vector3.new(-1866.8624,     8.0477, -8055.2026),  look = Vector3.new(  0.9932,   0.0000,   0.1166) },
            },
         },
 
