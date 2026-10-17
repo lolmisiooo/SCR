@@ -310,8 +310,8 @@ return {
     
     markers = {
         -- ── St. Helens Bridge ──────────────────
-        { label = "St. Helens Bridge P3 Metro ALL",                  pos = Vector3.new(  -27.6491,    28.8481, 12303.5771),  look = Vector3.new(  0.1066,   0.0000,   0.9943) },
-        { label = "St. Helens Bridge P4 Metro ALL",                  pos = Vector3.new(   -1.9390,    28.8481, 12299.2412),  look = Vector3.new(  0.1273,   0.0000,   0.9919) },
+        { label = "St Helens Bridge P3 Metro ALL",                  pos = Vector3.new(  -27.6491,    28.8481, 12303.5771),  look = Vector3.new(  0.1066,   0.0000,   0.9943) },
+        { label = "St Helens Bridge P4 Metro ALL",                  pos = Vector3.new(   -1.9390,    28.8481, 12299.2412),  look = Vector3.new(  0.1273,   0.0000,   0.9919) },
 
         -- ── Angel Pass ──────────────────────────────────
         { label = "Angel Pass P1 Metro ALL",                         pos = Vector3.new(-1493.0542,     8.0484,  9454.1123),  look = Vector3.new(  0.9998,   0.0000,   0.0209) },
@@ -341,8 +341,8 @@ return {
     
     markers = {
         -- ── St. Helens Bridge ──────────────────
-        { label = "St. Helens Bridge P4 T",                          pos = Vector3.new(   38.9624,    28.8481, 12701.2373),  look = Vector3.new( -0.0164,  -0.0000,  -0.9999) },
-        { label = "St. Helens Bridge P5 Metro ALL",                  pos = Vector3.new(   64.3154,    28.8480, 12604.6221),  look = Vector3.new( -0.0420,  -0.0000,  -0.9991) },
+        { label = "St Helens Bridge P4 T",                          pos = Vector3.new(   38.9624,    28.8481, 12701.2373),  look = Vector3.new( -0.0164,  -0.0000,  -0.9999) },
+        { label = "St Helens Bridge P5 Metro ALL",                  pos = Vector3.new(   64.3154,    28.8480, 12604.6221),  look = Vector3.new( -0.0420,  -0.0000,  -0.9991) },
         
         -- ── Angel Pass ──────────────────────────────────
         { label = "Angel Pass P2 Metro ALL",                         pos = Vector3.new(-1184.2129,     8.0481,  9403.4873),  look = Vector3.new( -1.0000,  -0.0000,   0.0020) },
