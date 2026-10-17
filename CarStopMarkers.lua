@@ -67,7 +67,7 @@ return {
         { label = "Leighton City P5 HST 2+4",        pos = Vector3.new( 2023.1340,  8.0481, -37506.9531), look = Vector3.new( 0.9801, -0.0000, -0.1983) },
         { label = "Leighton City P6 HST 2+4",        pos = Vector3.new( 2022.9917,  8.0481, -37496.9297), look = Vector3.new( 0.9396, -0.0000,  0.3422) },
 
-        -- ── St. Helens Bridge ──────────────────
+        -- ── St Helens Bridge ──────────────────
         { label = "St Helens Bridge P1 HST 2+4",    pos = Vector3.new(  -97.2319, 28.8480,  12318.4697), look = Vector3.new( 0.0621, -0.0000,  0.9981) },
         { label = "St Helens Bridge P2 HST 2+4",    pos = Vector3.new(  -23.7867, 36.5465,  12787.8682), look = Vector3.new(-0.0499,  0.0000, -0.9988) },
 
@@ -133,7 +133,7 @@ return {
                 { label = "Morganstown P5 HST 2+7",                          pos = Vector3.new(   88.1393,    12.9481, -10169.8662),  look = Vector3.new( -0.0152,   0.0000,  -0.9999) },
                 { label = "Morganstown P5 HST S",                            pos = Vector3.new(   87.9074,    15.2481, -10008.8252),  look = Vector3.new( -0.0089,   0.0000,  -1.0000) },
 
-                -- ── St. Helens Bridge ───────────────────────
+                -- ── St Helens Bridge ───────────────────────
                 { label = "St Helens Bridge P2 HST 2+4",                     pos = Vector3.new(  -27.7170,    28.8480, 12788.8262),  look = Vector3.new( -0.0555,   0.0000,  -0.9985) },
                 { label = "St Helens Bridge P2 HST 2+5",                    pos = Vector3.new(  -27.7835,    37.5287, 12848.0771),  look = Vector3.new( -0.0465,  -0.0000,  -0.9989) },
 
@@ -287,7 +287,7 @@ return {
                 dest  = "Stepford Central",
     
     markers = {
-        -- ── St. Helens Bridge ──────────────────
+        -- ── St Helens Bridge ──────────────────
         { label = "St Helens Bridge P2 HST 2+4",    pos = Vector3.new(  -23.7867, 36.5465,  12787.8682), look = Vector3.new(-0.0499,  0.0000, -0.9988) },
 
            },
@@ -298,7 +298,7 @@ return {
                 dest  = "Benton",
     
     markers = {
-        -- ── St. Helens Bridge ──────────────────
+        -- ── St Helens Bridge ──────────────────
         { label = "St Helens Bridge P1 HST 2+4",    pos = Vector3.new(  -97.2319, 28.8480,  12318.4697), look = Vector3.new( 0.0621, -0.0000,  0.9981) },
            },
         },
@@ -309,7 +309,7 @@ return {
                 dest  = "Port Benton",
     
     markers = {
-        -- ── St. Helens Bridge ──────────────────
+        -- ── St Helens Bridge ──────────────────
         { label = "St Helens Bridge P3 Metro ALL",                  pos = Vector3.new(  -27.6491,    28.8481, 12303.5771),  look = Vector3.new(  0.1066,   0.0000,   0.9943) },
         { label = "St Helens Bridge P4 Metro ALL",                  pos = Vector3.new(   -1.9390,    28.8481, 12299.2412),  look = Vector3.new(  0.1273,   0.0000,   0.9919) },
 
@@ -334,13 +334,13 @@ return {
            },
         },
 
-                            -- ── Route R047  →  St. Helens Bridge ──────
+                            -- ── Route R047  →  St Helens Bridge ──────
             {
                 route = "R047",
-                dest  = "St. Helens Bridge",
+                dest  = "St Helens Bridge",
     
     markers = {
-        -- ── St. Helens Bridge ──────────────────
+        -- ── St Helens Bridge ──────────────────
         { label = "St Helens Bridge P4 T",                          pos = Vector3.new(   38.9624,    28.8481, 12701.2373),  look = Vector3.new( -0.0164,  -0.0000,  -0.9999) },
         { label = "St Helens Bridge P5 Metro ALL",                  pos = Vector3.new(   64.3154,    28.8480, 12604.6221),  look = Vector3.new( -0.0420,  -0.0000,  -0.9991) },
         
