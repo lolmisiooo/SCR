@@ -303,6 +303,69 @@ return {
            },
         },
 
+                             -- ── Route R047  →  Port Benton ──────
+            {
+                route = "R047",
+                dest  = "Port Benton",
+    
+    markers = {
+        -- ── St. Helens Bridge ──────────────────
+        { label = "St. Helens Bridge P3 Metro ALL",                  pos = Vector3.new(  -27.6491,    28.8481, 12303.5771),  look = Vector3.new(  0.1066,   0.0000,   0.9943) },
+        { label = "St. Helens Bridge P4 Metro ALL",                  pos = Vector3.new(   -1.9390,    28.8481, 12299.2412),  look = Vector3.new(  0.1273,   0.0000,   0.9919) },
+
+        -- ── Angel Pass ──────────────────────────────────
+        { label = "Angel Pass P1 Metro ALL",                         pos = Vector3.new(-1493.0542,     8.0484,  9454.1123),  look = Vector3.new(  0.9998,   0.0000,   0.0209) },
+
+        -- ── Bodin ───────────────────────────────────────
+        { label = "Bodin P1 3",                                      pos = Vector3.new(-2844.4788,     8.0481,  7335.8740),  look = Vector3.new( -0.0277,   0.0000,   0.9996) },
+
+        -- ── Coxly ───────────────────────────────────────
+        { label = "Coxly P1 Metro 3",                                pos = Vector3.new(-2867.8748,     2.8481,   609.1440),  look = Vector3.new( -0.0464,  -0.0000,   0.9989) },
+        { label = "Coxly P2 Metro 3",                                pos = Vector3.new(-2842.1404,     8.0481,   596.2723),  look = Vector3.new( -0.0069,   0.0000,   1.0000) },
+
+        -- ── Benton ──────────────────────────────────────
+        { label = "Benton P8 4-8",                                   pos = Vector3.new(-2736.7734,     8.0481, -5552.0039),  look = Vector3.new( -0.0010,   0.0000,   1.0000) },
+        { label = "Benton P7 Metro 3",                               pos = Vector3.new(-2776.5806,     8.0481, -5512.0630),  look = Vector3.new( -0.0210,  -0.0000,   0.9998) },
+        { label = "Benton P6 Metro 3",                               pos = Vector3.new(-2799.2051,     8.0481, -5511.3882),  look = Vector3.new(  0.0014,  -0.0000,   1.0000) },
+        { label = "Benton P5 Metro 3",                               pos = Vector3.new(-2834.0178,     8.0481, -5511.6128),  look = Vector3.new(  0.0015,  -0.0000,   1.0000) },
+        { label = "Benton P4 Metro 3",                               pos = Vector3.new(-2856.8179,     8.0481, -5511.3491),  look = Vector3.new( -0.0044,   0.0000,   1.0000) },
+        { label = "Benton P2 2-3",                                   pos = Vector3.new(-2927.6299,     8.0481, -5510.4385),  look = Vector3.new(  0.0263,  -0.0000,   0.9997) },
+        { label = "Benton P1 3-4",                                   pos = Vector3.new(-2959.8315,     8.0481, -5602.7534),  look = Vector3.new( -0.0253,  -0.0000,   0.9997) },
+           },
+        },
+
+                            -- ── Route R047  →  St. Helens Bridge ──────
+            {
+                route = "R047",
+                dest  = "St. Helens Bridge",
+    
+    markers = {
+        -- ── St. Helens Bridge ──────────────────
+        { label = "St. Helens Bridge P4 T",                          pos = Vector3.new(   38.9624,    28.8481, 12701.2373),  look = Vector3.new( -0.0164,  -0.0000,  -0.9999) },
+        { label = "St. Helens Bridge P5 Metro ALL",                  pos = Vector3.new(   64.3154,    28.8480, 12604.6221),  look = Vector3.new( -0.0420,  -0.0000,  -0.9991) },
+        
+        -- ── Angel Pass ──────────────────────────────────
+        { label = "Angel Pass P2 Metro ALL",                         pos = Vector3.new(-1184.2129,     8.0481,  9403.4873),  look = Vector3.new( -1.0000,  -0.0000,   0.0020) },
+        { label = "Angel Pass P3 Metro ALL",                         pos = Vector3.new(-1184.2028,     2.8481,  9360.4277),  look = Vector3.new( -0.9986,   0.0000,  -0.0520) },
+
+        -- ── Bodin ───────────────────────────────────────
+        { label = "Bodin P3 Metro ALL",                              pos = Vector3.new(-2773.8010,     8.0481,  7590.8135),  look = Vector3.new(  0.0106,  -0.0000,  -0.9999) },
+        { label = "Bodin P2 Metro ALL",                              pos = Vector3.new(-2789.8176,     8.0481,  7590.4692),  look = Vector3.new( -0.0025,   0.0000,  -1.0000) },
+
+        -- ── Coxly ───────────────────────────────────────
+        { label = "Coxly P3 Metro ALL",                              pos = Vector3.new(-2791.1377,     8.0481,   883.1125),  look = Vector3.new(  0.0178,   0.0000,  -0.9998) },
+
+        -- ── Benton ──────────────────────────────────────
+        { label = "Benton P2 2-3",                                   pos = Vector3.new(-2923.5920,     8.0481, -5368.6797),  look = Vector3.new( -0.0197,   0.0000,  -0.9998) },
+        { label = "Benton P3 2-3",                                   pos = Vector3.new(-2903.4368,     8.0481, -5368.7749),  look = Vector3.new(  0.0101,  -0.0000,  -0.9999) },
+        { label = "Benton P6 2-3",                                   pos = Vector3.new(-2795.4543,     8.0481, -5345.7261),  look = Vector3.new(  0.0144,  -0.0000,  -0.9999) },
+        { label = "Benton P8 Metro 3",                               pos = Vector3.new(-2738.8296,     8.0481, -5347.6763),  look = Vector3.new(  0.0309,   0.0000,  -0.9995) },
+        { label = "Benton P10 Metro 3",                              pos = Vector3.new(-2716.1729,     8.0481, -5304.2441),  look = Vector3.new(  0.0075,   0.0000,  -1.0000) },
+        { label = "Benton P11 Metro 3",                              pos = Vector3.new(-2679.6040,     8.0481, -5346.3291),  look = Vector3.new( -0.0052,  -0.0000,  -1.0000) },
+        { label = "Benton P12 Metro 3",                              pos = Vector3.new(-2659.6323,     8.0481, -5345.9629),  look = Vector3.new( -0.0083,   0.0000,  -1.0000) },
+        { label = "Benton P13 Metro 3",                              pos = Vector3.new(-2621.7998,     8.0481, -5346.1606),  look = Vector3.new(  0.0151,   0.0000,  -0.9999) },
+           },
+        },
 
         -- ──────────────────────────────────────
         -- Example: R080 terminating at Leighton City
