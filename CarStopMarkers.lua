@@ -474,6 +474,10 @@ return {
                 -- ── Financial Quarter ───────────────────────
                 { label = "Financial Quarter P1 Metro ALL",                    pos = Vector3.new(  1897.4580,    28.8480, 28350.0840),  look = Vector3.new(   0.0027,  -0.0000,  -1.0000) },
 
+                -- ── Beechley ────────────────────────────────
+                { label = "Beechley P3 Metro 3",                               pos = Vector3.new( -2251.2458,    28.8482, 28837.2031),  look = Vector3.new(   1.0000,  -0.0000,  -0.0078) },
+                { label = "Beechley P4 Metro 3",                               pos = Vector3.new( -2251.0549,    28.8481, 28865.2012),  look = Vector3.new(   1.0000,   0.0000,  -0.0039) },
+                { label = "Beechley P5 Metro 3",                               pos = Vector3.new( -2251.0957,    28.8482, 28905.6016),  look = Vector3.new(   1.0000,   0.0000,   0.0040) },
             },
         },
         
