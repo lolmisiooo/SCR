@@ -446,8 +446,37 @@ return {
         { label = "Stepford United Football Club P4 2-3",            pos = Vector3.new(-5872.6987,     5.4479, 14504.6074),  look = Vector3.new( -1.0000,  -0.0000,   0.0020) },
            },
         },
+        
+        -- ── Route R029  →  Stepford Victoria
+        {
+            route   = "R029",
+            dest    = "Stepford Victoria",
 
+            markers = {
 
+                -- ── Beechley ────────────────────────────────
+                { label = "Beechley P2 Metro 3",                               pos = Vector3.new( -2094.2388,    28.8539, 28799.5996),  look = Vector3.new(  -0.9999,   0.0000,  -0.0144) },
+                { label = "Beechley P3 Metro 3",                               pos = Vector3.new( -2092.1040,    28.8481, 28840.1621),  look = Vector3.new(  -1.0000,   0.0000,  -0.0039) },
+
+                -- ── Financial Quarter ───────────────────────
+                { label = "Financial Quarter P2 Metro ALL",                    pos = Vector3.new(  1868.9365,    28.8479, 28100.0762),  look = Vector3.new(   0.0142,  -0.0000,   0.9999) },
+
+            },
+        },
+
+        -- ── Route R029  →  Beechley
+        {
+            route   = "R029",
+            dest    = "Beechley",
+
+            markers = {
+
+                -- ── Financial Quarter ───────────────────────
+                { label = "Financial Quarter P1 Metro ALL",                    pos = Vector3.new(  1897.4580,    28.8480, 28350.0840),  look = Vector3.new(   0.0027,  -0.0000,  -1.0000) },
+
+            },
+        },
+        
         -- ──────────────────────────────────────
         -- Example: R080 terminating at Leighton City
         -- Uncomment and fill real coords to use.
