@@ -375,6 +375,75 @@ return {
            },
         },
 
+                                    -- ── Route R021  →  Stepford United Football Club ──────
+            {
+                route = "R021",
+                dest  = "Stepford United Football Club",
+    
+    markers = {
+        -- ── Stepford Central PA Metro 3 ─────────────────
+        { label = "Stepford Central PA Metro 3",                     pos = Vector3.new(   -8.7929,   -19.1519, 25072.0605),  look = Vector3.new( -0.0440,   0.0000,   0.9990) },
+        -- ── Stepford Central PB Metro 3 ─────────────────
+        { label = "Stepford Central PB Metro 3",                     pos = Vector3.new(   29.8851,   -19.1519, 25072.0859),  look = Vector3.new(  0.0206,   0.0000,   0.9998) },
+        -- ── Stepford Central PC Metro 3 ─────────────────
+        { label = "Stepford Central PC Metro 3",                     pos = Vector3.new(   47.8812,   -19.1519, 25071.8535),  look = Vector3.new(  0.0087,  -0.0000,   1.0000) },
+
+        -- ── Four Ways PB Metro ALL ──────────────────────
+        { label = "Four Ways PB Metro ALL",                          pos = Vector3.new(   30.8130,   -19.1522, 21911.6621),  look = Vector3.new( -0.0086,  -0.0000,  -1.0000) },
+
+        -- ── Stepford East PA Metro ALL ──────────────────
+        { label = "Stepford East PA Metro ALL",                      pos = Vector3.new(  -25.0527,   -19.1523, 18991.3730),  look = Vector3.new(  0.0112,  -0.0000,   0.9999) },
+        -- ── Stepford East PB Metro ALL ──────────────────
+        { label = "Stepford East PB Metro ALL",                      pos = Vector3.new(   -7.0326,   -19.1523, 18991.1055),  look = Vector3.new( -0.0007,   0.0000,   1.0000) },
+
+        -- ── Stepford High Street PA Metro 3 ─────────────
+        { label = "Stepford High Street PA Metro 3",                 pos = Vector3.new( -140.2885,   -19.1663, 15523.7588),  look = Vector3.new(  0.6585,  -0.0037,   0.7526) },
+        -- ── Stepford High Street PC Metro ALL ───────────
+        { label = "Stepford High Street PC Metro ALL",               pos = Vector3.new(    2.4821,   -19.1519, 15355.0967),  look = Vector3.new( -0.0015,   0.0000,   1.0000) },
+
+        -- ── Whitefield Lido ─────────────────────────────
+        { label = "Whitefield Lido P1 Metro 3",                      pos = Vector3.new(-2623.6443,    36.0482, 15353.4609),  look = Vector3.new(  0.9998,  -0.0000,   0.0191) },
+
+        -- ── Stepford United Football Club ───────────────
+        { label = "Stepford United Football Club P3 2-3",            pos = Vector3.new(-6108.9087,     5.4479, 14537.9619),  look = Vector3.new(  0.9999,   0.0000,   0.0117) },
+           },
+        },
+
+                                    -- ── Route R021  →  Stepford Central ──────
+            {
+                route = "R021",
+                dest  = "Stepford Central",
+    
+    markers = {
+        -- ── Stepford Central PB Metro 3 ─────────────────
+        { label = "Stepford Central PB Metro 3",                     pos = Vector3.new(   29.9093,   -19.1519, 25201.7461),  look = Vector3.new( -0.0045,   0.0000,  -1.0000) },
+        -- ── Stepford Central PC Metro 3 ─────────────────
+        { label = "Stepford Central PC Metro 3",                     pos = Vector3.new(   47.9403,   -19.1519, 25201.5645),  look = Vector3.new(  0.0045,   0.0000,  -1.0000) },
+        -- ── Stepford Central PD Metro 3 ─────────────────
+        { label = "Stepford Central PD Metro 3",                     pos = Vector3.new(   86.6039,   -19.1519, 25201.5781),  look = Vector3.new( -0.0017,  -0.0000,  -1.0000) },
+
+        -- ── Four Ways PA Metro ALL ──────────────────────
+        { label = "Four Ways PA Metro ALL",                          pos = Vector3.new(   -7.0328,   -19.1521, 21708.8379),  look = Vector3.new(  0.0009,  -0.0000,   1.0000) },
+
+        -- ── Stepford East PD Metro ALL ──────────────────
+        { label = "Stepford East PD Metro ALL",                      pos = Vector3.new(   48.5193,   -19.1523, 19195.5117),  look = Vector3.new(  0.0038,   0.0000,  -1.0000) },
+        -- ── Stepford East PC Metro ALL ──────────────────
+        { label = "Stepford East PC Metro ALL",                      pos = Vector3.new(   30.4690,   -19.1645, 19195.6660),  look = Vector3.new( -0.0104,  -0.0042,  -0.9999) }
+
+        -- ── Stepford High Street PD Metro ALL ───────────
+        { label = "Stepford High Street PD Metro ALL",               pos = Vector3.new(   38.3153,   -19.1520, 15667.2139),  look = Vector3.new( -0.0062,  -0.0000,  -1.0000) },
+        -- ── Stepford High Street PB Metro ALL ───────────
+        { label = "Stepford High Street PB Metro ALL",               pos = Vector3.new(  -20.6289,   -19.1519, 15642.6699),  look = Vector3.new( -0.3332,  -0.0000,  -0.9429) },
+
+        -- ── Whitefield Lido ─────────────────────────────
+        { label = "Whitefield Lido P2 Metro ALL",                    pos = Vector3.new(-2375.5740,    28.8481, 15325.5381),  look = Vector3.new( -0.9999,  -0.0000,  -0.0118) },
+
+        -- ── Stepford United Football Club ───────────────
+        { label = "Stepford United Football Club P4 2-3",            pos = Vector3.new(-5872.6987,     5.4479, 14504.6074),  look = Vector3.new( -1.0000,  -0.0000,   0.0020) },
+           },
+        },
+
+
         -- ──────────────────────────────────────
         -- Example: R080 terminating at Leighton City
         -- Uncomment and fill real coords to use.
