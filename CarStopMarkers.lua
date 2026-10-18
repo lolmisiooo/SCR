@@ -428,7 +428,7 @@ return {
         -- ── Stepford East PD Metro ALL ──────────────────
         { label = "Stepford East PD Metro ALL",                      pos = Vector3.new(   48.5193,   -19.1523, 19195.5117),  look = Vector3.new(  0.0038,   0.0000,  -1.0000) },
         -- ── Stepford East PC Metro ALL ──────────────────
-        { label = "Stepford East PC Metro ALL",                      pos = Vector3.new(   30.4690,   -19.1645, 19195.6660),  look = Vector3.new( -0.0104,  -0.0042,  -0.9999) }
+        { label = "Stepford East PC Metro ALL",                      pos = Vector3.new(   30.4690,   -19.1645, 19195.6660),  look = Vector3.new( -0.0104,  -0.0042,  -0.9999) },
 
         -- ── Stepford High Street PD Metro ALL ───────────
         { label = "Stepford High Street PD Metro ALL",               pos = Vector3.new(   38.3153,   -19.1520, 15667.2139),  look = Vector3.new( -0.0062,  -0.0000,  -1.0000) },
