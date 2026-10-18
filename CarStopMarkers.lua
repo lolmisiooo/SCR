@@ -426,6 +426,8 @@ return {
 
         -- ── Four Ways PA Metro ALL ──────────────────────
         { label = "Four Ways PA Metro ALL",                          pos = Vector3.new(   -7.0328,   -19.1521, 21708.8379),  look = Vector3.new(  0.0009,  -0.0000,   1.0000) },
+        -- ── Stepford East PB Metro ALL ──────────────────
+        { label = "Stepford East PB Metro ALL",                      pos = Vector3.new(   -7.0326,   -19.1523, 18991.1055),  look = Vector3.new( -0.0007,   0.0000,   1.0000) },
 
         -- ── Stepford East PD Metro ALL ──────────────────
         { label = "Stepford East PD Metro ALL",                      pos = Vector3.new(   48.5193,   -19.1523, 19195.5117),  look = Vector3.new(  0.0038,   0.0000,  -1.0000) },
