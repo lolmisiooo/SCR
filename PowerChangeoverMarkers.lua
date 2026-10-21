@@ -1,5 +1,5 @@
 {
-    route = "R080",
+    route = "R140",
     class = "Class 398",      -- optional; omit for all classes on this route/dest
     markers = {
 { label = "Cadoxton - Battery",
