@@ -4,7 +4,7 @@
     markers = {
 { label = "Stepford Bay - Battery",
   pos   = Vector3.new( -1840.4508,    29.2482, 28866.0254),
-  look  = Vector3.new(    -0.9903,     0.0000,    -0.1391),
+  look  = Vector3.new(     0.9903,     0.0000,     0.1391),
   power = "Battery",
   dest  = "Stepford Bay", },
     { label = "Beechly - Electric",
