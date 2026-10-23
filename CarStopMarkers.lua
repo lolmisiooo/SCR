@@ -480,6 +480,38 @@ return {
                 { label = "Beechley P5 Metro 3",                               pos = Vector3.new( -2251.0957,    28.8482, 28905.6016),  look = Vector3.new(   1.0000,   0.0000,   0.0040) },
             },
         },
+
+                -- ── Route R140  →  Stepford Bay
+        {
+            route   = "R140",
+            dest    = "Stepford Bay",
+
+            markers = {
+
+                -- ── Beechley ────────────────────────────────
+                { label = "Beechley P3 Metro 3",                               pos = Vector3.new( -2092.2632,    28.8481, 28840.1523),  look = Vector3.new(  -1.0000,   0.0000,   0.0000) },
+                { label = "Beechley P3 Metro 6",                               pos = Vector3.new( -2029.7946,    28.8415, 28845.0508),  look = Vector3.new(  -0.9978,   0.0000,  -0.0666) },
+                { label = "Beechley P2 Metro 3",                               pos = Vector3.new( -2094.0356,    28.8539, 28799.5527),  look = Vector3.new(  -0.9999,  -0.0000,  -0.0112) },
+                { label = "Beechley P2 Metro 6",                               pos = Vector3.new( -2025.2156,    28.8507, 28811.4590),  look = Vector3.new(  -0.9842,   0.0000,  -0.1770) },
+
+                -- ── Cadoxton ────────────────────────────────
+                { label = "Cadoxton P1 Metro ALL",                             pos = Vector3.new(  3237.7620,     8.0481, 29073.4395),  look = Vector3.new(  -1.0000,   0.0000,   0.0079) },
+
+            },
+        },
+
+                -- ── Route R140  →  Beechley
+        {
+            route   = "R140",
+            dest    = "Beechley",
+
+            markers = {
+
+                -- ── Cadoxton ────────────────────────────────
+                { label = "Cadoxton P1 Metro ALL",                             pos = Vector3.new(  2928.1694,     3.4481, 29088.9336),  look = Vector3.new(   0.9999,  -0.0000,  -0.0159) },
+
+            },
+        },
         
         -- ──────────────────────────────────────
         -- Example: R080 terminating at Leighton City
