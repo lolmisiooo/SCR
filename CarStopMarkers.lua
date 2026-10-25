@@ -512,6 +512,139 @@ return {
 
             },
         },
+
+
+                -- ── Route R028  →  Stepford Victoria
+        {
+            route   = "R028",
+            dest    = "Stepford Victoria",
+
+            markers = {
+
+                -- ── Financial Quarter ───────────────────────
+                { label = "Financial Quarter P2 Metro ALL",                    pos = Vector3.new(  1868.9291,    28.8479, 28099.9199),  look = Vector3.new(  -0.0043,  -0.0000,   1.0000) },
+
+                -- ── Beechley ────────────────────────────────
+                { label = "Beechley P2 Metro 3",                               pos = Vector3.new( -2094.0613,    28.8539, 28799.5527),  look = Vector3.new(  -0.9934,   0.0000,  -0.1143) },
+                { label = "Beechley P2 Metro 6",                               pos = Vector3.new( -2024.8955,    28.8507, 28811.4727),  look = Vector3.new(  -0.9918,  -0.0000,  -0.1277) },
+                { label = "Beechley P3 Metro 3",                               pos = Vector3.new( -2092.2063,    28.8481, 28840.1191),  look = Vector3.new(  -1.0000,   0.0000,  -0.0056) },
+                { label = "Beechley P3 Metro 6",                               pos = Vector3.new( -2029.9086,    28.8415, 28844.9590),  look = Vector3.new(  -0.9956,   0.0000,  -0.0941) },
+
+                -- ── Hemdon Park ─────────────────────────────
+                { label = "Hemdon Park P1 Metro 6",                            pos = Vector3.new(-10122.4316,     8.0484, 30842.3496),  look = Vector3.new(  -0.7311,   0.0000,   0.6823) },
+
+            },
+        },
+
+        -- ── Route R028  →  Willowfield
+        {
+            route   = "R028",
+            dest    = "Willowfield",
+
+            markers = {
+
+                -- ── Financial Quarter ───────────────────────
+                { label = "Financial Quarter P1 Metro ALL",                    pos = Vector3.new(  1897.6273,    28.8455, 28350.1641),  look = Vector3.new(   0.0272,  -0.0014,  -0.9996) },
+
+                -- ── Beechley ────────────────────────────────
+                { label = "Beechley P3 Metro 3",                               pos = Vector3.new( -2250.6548,    28.8482, 28837.1484),  look = Vector3.new(   1.0000,   0.0000,   0.0081) },
+                { label = "Beechley P3 Metro 6",                               pos = Vector3.new( -2308.4009,    28.8482, 28840.4219),  look = Vector3.new(   0.9904,   0.0000,  -0.1380) },
+                { label = "Beechley P4 Metro 3",                               pos = Vector3.new( -2250.6340,    28.8481, 28865.5078),  look = Vector3.new(   0.9999,   0.0000,   0.0111) },
+                { label = "Beechley P4 Metro 6",                               pos = Vector3.new( -2307.4075,    28.8504, 28865.6035),  look = Vector3.new(   1.0000,  -0.0000,   0.0080) },
+                { label = "Beechley P5 Metro 3",                               pos = Vector3.new( -2250.6348,    28.8482, 28905.6836),  look = Vector3.new(   1.0000,   0.0000,   0.0040) },
+                { label = "Beechley P5 Metro 6",                               pos = Vector3.new( -2307.8584,    28.8482, 28905.7656),  look = Vector3.new(   0.9997,   0.0000,  -0.0233) },
+
+                -- ── Hemdon Park ─────────────────────────────
+                { label = "Hemdon Park P2 Metro 3",                            pos = Vector3.new(-10278.3711,     8.0484, 31039.4023),  look = Vector3.new(   0.7092,   0.0000,  -0.7050) },
+                { label = "Hemdon Park P2 Metro 6",                            pos = Vector3.new(-10339.6533,     8.0484, 31103.3516),  look = Vector3.new(   0.7222,  -0.0000,  -0.6917) },
+
+            },
+        },
+
+                -- ── Route R028  →  Stepford Victoria
+        {
+            route   = "R028",
+            dest    = "Stepford Victoria",
+
+            markers = {
+
+                -- ── Financial Quarter ───────────────────────
+                { label = "Financial Quarter P2 Metro ALL",                    pos = Vector3.new(  1868.8558,    28.8468, 28099.8555),  look = Vector3.new(  -0.0425,  -0.0007,   0.9991) },
+
+                -- ── City Hospital ───────────────────────────
+                { label = "City Hospital P2 Metro 3",                          pos = Vector3.new(    72.2912,    24.5480, 27946.5938),  look = Vector3.new(   0.0128,   0.0000,  -0.9999) },
+                { label = "City Hospital P2 Metro 6",                          pos = Vector3.new(    66.6355,    24.5480, 28011.1621),  look = Vector3.new(   0.0842,   0.0000,  -0.9965) },
+
+                -- ── Stepford Central ────────────────────────
+                { label = "Stepford Central P11 S",                            pos = Vector3.new(    50.5529,    28.8481, 25607.4551),  look = Vector3.new(   0.0085,   0.0000,  -1.0000) },
+
+                -- ── Four Ways PB Metro ALL ──────────────────
+                { label = "Four Ways PB Metro ALL",                            pos = Vector3.new(    30.8213,   -19.1549, 21912.0332),  look = Vector3.new(   0.0120,  -0.0015,  -0.9999) },
+
+                -- ── Stepford East PC Metro ALL ──────────────
+                { label = "Stepford East PC Metro ALL",                        pos = Vector3.new(    30.9027,   -19.1523, 19195.9941),  look = Vector3.new(   0.0084,  -0.0000,  -1.0000) },
+
+                -- ── Stepford East PD Metro ALL ──────────────
+                { label = "Stepford East PD Metro ALL",                        pos = Vector3.new(    48.4625,   -19.1549, 19195.7207),  look = Vector3.new(   0.0353,  -0.0011,  -0.9994) },
+
+                -- ── Stepford High Street PD Metro ALL ───────
+                { label = "Stepford High Street PD Metro ALL",                 pos = Vector3.new(    38.3102,   -19.1521, 15667.1934),  look = Vector3.new(   0.0039,  -0.0001,  -1.0000) },
+
+                -- ── Stepford High Street PB Metro ALL ───────
+                { label = "Stepford High Street PB Metro ALL",                 pos = Vector3.new(   -20.4452,   -19.1519, 15642.8584),  look = Vector3.new(  -0.4472,  -0.0000,  -0.8944) },
+
+                -- ── Whitefield Lido ─────────────────────────
+                { label = "Whitefield Lido P2 Metro ALL",                      pos = Vector3.new( -2375.1895,    28.8423, 15325.4111),  look = Vector3.new(  -0.9999,  -0.0033,  -0.0124) },
+
+                -- ── Stepford United Football Club ───────────
+                { label = "Stepford United Football Club P4 2-3",              pos = Vector3.new( -5872.4175,     5.4460, 14504.5000),  look = Vector3.new(  -0.9994,  -0.0010,   0.0339) },
+
+            },
+        },
+
+        -- ── Route R028  →  Stepford United Football Club
+        {
+            route   = "R028",
+            dest    = "Stepford United Football Club",
+
+            markers = {
+
+                -- ── Financial Quarter ───────────────────────
+                { label = "Financial Quarter P1 Metro ALL",                    pos = Vector3.new(  1897.4694,    28.8468, 28349.8926),  look = Vector3.new(   0.0432,  -0.0005,  -0.9991) },
+
+                -- ── City Hospital ───────────────────────────
+                { label = "City Hospital P1 Metro 3",                          pos = Vector3.new(     7.0441,    24.5480, 27806.8555),  look = Vector3.new(  -0.0069,   0.0000,   1.0000) },
+                { label = "City Hospital P1 Metro 6",                          pos = Vector3.new(    12.8812,    24.5480, 27742.0391),  look = Vector3.new(  -0.0386,   0.0000,   0.9993) },
+
+                -- ── Stepford Central ────────────────────────
+                { label = "Stepford Central P10 4",                            pos = Vector3.new(    20.9346,    28.8481, 25283.5703),  look = Vector3.new(  -0.0335,  -0.0000,   0.9994) },
+                { label = "Stepford Central P10 2-3",                          pos = Vector3.new(    18.9757,    28.8481, 25347.7129),  look = Vector3.new(  -0.0606,   0.0000,   0.9982) },
+                { label = "Stepford Central P10 S",                            pos = Vector3.new(    26.0334,    28.8481, 24998.5195),  look = Vector3.new(   0.0164,   0.0000,   0.9999) },
+
+                -- ── Four Ways PA Metro ALL ──────────────────
+                { label = "Four Ways PA Metro ALL",                            pos = Vector3.new(    -7.3454,   -19.1522, 21708.4863),  look = Vector3.new(  -0.0485,  -0.0002,   0.9988) },
+
+                -- ── Stepford East PA Metro ALL ──────────────
+                { label = "Stepford East PA Metro ALL",                        pos = Vector3.new(   -24.7235,   -19.1523, 18990.8633),  look = Vector3.new(   0.0214,  -0.0000,   0.9998) },
+
+                -- ── Stepford East PB Metro ALL ──────────────
+                { label = "Stepford East PB Metro ALL",                        pos = Vector3.new(    -7.2422,   -19.1523, 18990.8184),  look = Vector3.new(   0.0094,  -0.0000,   1.0000) },
+
+                -- ── Stepford High Street PA Metro 3 ─────────
+                { label = "Stepford High Street PA Metro 3",                   pos = Vector3.new(  -140.9492,   -19.1657, 15524.2334),  look = Vector3.new(   0.6578,  -0.0057,   0.7532) },
+
+                -- ── Stepford High Street PA Metro 6 ─────────
+                { label = "Stepford High Street PA Metro 6",                   pos = Vector3.new(  -193.4535,   -19.1519, 15473.4082),  look = Vector3.new(   0.7418,  -0.0000,   0.6707) },
+
+                -- ── Stepford High Street PC Metro ALL ───────
+                { label = "Stepford High Street PC Metro ALL",                 pos = Vector3.new(     2.3277,   -19.1519, 15354.5928),  look = Vector3.new(   0.0174,   0.0000,   0.9998) },
+
+                -- ── Whitefield Lido ─────────────────────────
+                { label = "Whitefield Lido P1 Metro 3",                        pos = Vector3.new( -2623.9443,    28.8397, 15352.6621),  look = Vector3.new(   0.9999,  -0.0047,  -0.0097) },
+                { label = "Whitefield Lido P1 Metro 6",                        pos = Vector3.new( -2713.5493,    28.8481, 15351.8262),  look = Vector3.new(   1.0000,   0.0000,   0.0001) },
+
+            },
+        },
         
         -- ──────────────────────────────────────
         -- Example: R080 terminating at Leighton City
