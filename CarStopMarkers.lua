@@ -371,7 +371,7 @@ return {
                     { label = "P4 HST 2+4",      pos = Vector3.new(    47.6386,    8.0477, -14465.1660), look = Vector3.new(  0.0189,  -0.0000,  -0.9998) },
                     { label = "P4 Class 80x 5",  pos = Vector3.new(    47.6386,    8.0477, -14465.1660), look = Vector3.new(  0.0189,  -0.0000,  -0.9998) },
                     { label = "P4 HST 2+5",      pos = Vector3.new(    50.5793,    8.0477, -14377.9316), look = Vector3.new(  0.0492,   0.0000,  -0.9988) },
-                    { label = "P4 5+8",          pos = Vector3.new(    49.3083,    8.0477, -14360.5986), look = Vector3.new( -0.0042,   0.0000,  -1.0000) },
+                    { label = "P4 5-8",          pos = Vector3.new(    49.3083,    8.0477, -14360.5986), look = Vector3.new( -0.0042,   0.0000,  -1.0000) },
                     { label = "P4 S",            pos = Vector3.new(    48.8213,    8.0477, -14325.7002), look = Vector3.new(  0.0093,   0.0000,  -1.0000) },
                     { label = "P4 Class 80x 9-10", pos = Vector3.new(    48.8213,    8.0477, -14325.7002), look = Vector3.new(  0.0093,   0.0000,  -1.0000) },
                     { label = "P4 HST S",        pos = Vector3.new(    48.8213,    8.0477, -14325.7002), look = Vector3.new(  0.0093,   0.0000,  -1.0000) },
