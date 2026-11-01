@@ -489,50 +489,6 @@ return {
                 },
             },
         },
-
-                {
-            name = "Edgemead",
-
-            sets = {
-                {
-                    next = { "Leighton City", "Leighton West" },
-                    markers = {
-                        { label = "P3 2-6",          pos = Vector3.new( 11040.3887,    8.0481, -37582.8047), look = Vector3.new(  0.9972,   0.0000,   0.0742) },
-                        { label = "P3 Class 80x 5",  pos = Vector3.new( 11040.3887,    8.0481, -37582.8047), look = Vector3.new(  0.9972,   0.0000,   0.0742) },
-                        { label = "P3 HST 2+4",      pos = Vector3.new( 11040.3887,    8.0481, -37582.8047), look = Vector3.new(  0.9972,   0.0000,   0.0742) },
-                        { label = "P3 S",            pos = Vector3.new( 10832.3750,    8.0481, -37582.4336), look = Vector3.new(  0.9974,  -0.0000,   0.0727) },
-                        { label = "P3 HST S",        pos = Vector3.new( 10832.3750,    8.0481, -37582.4336), look = Vector3.new(  0.9974,  -0.0000,   0.0727) },
-                        { label = "P3 Class 80x 9-10", pos = Vector3.new( 10832.3750,    8.0481, -37582.4336), look = Vector3.new(  0.9974,   0.0000,   0.0727) },
-                        { label = "P1 2-6",          pos = Vector3.new( 11050.9346,    8.0481, -37621.3906), look = Vector3.new(  0.9995,   0.0000,   0.0326) },
-                        { label = "P1 Class 80x 5",  pos = Vector3.new( 11050.9346,    8.0481, -37621.3906), look = Vector3.new(  0.9995,  -0.0000,   0.0326) },
-                        { label = "P1 HST 2+5",      pos = Vector3.new( 11050.9346,    8.0481, -37621.3906), look = Vector3.new(  0.9995,   0.0000,   0.0326) },
-                        { label = "P1 S",            pos = Vector3.new( 10814.1621,    8.0481, -37626.8516), look = Vector3.new(  0.9994,   0.0000,   0.0349) },
-                        { label = "P1 Class 80x 9-10", pos = Vector3.new( 10814.1621,    8.0481, -37626.8516), look = Vector3.new(  0.9994,   0.0000,   0.0349) },
-                        { label = "P1 HST S",        pos = Vector3.new( 10814.1621,    8.0481, -37626.8516), look = Vector3.new(  0.9994,   0.0000,   0.0349) },
-                    },
-                },
-                {
-                    next = { "Faymere", "Rayleigh Bay" },
-                    markers = {
-                        { label = "P2 2-3",          pos = Vector3.new( 11318.5869,    8.0481, -37611.3672), look = Vector3.new( -0.9989,   0.0000,  -0.0473) },
-                        { label = "P2 4-6",          pos = Vector3.new( 11461.5430,    8.0481, -37611.2305), look = Vector3.new( -0.9992,   0.0000,  -0.0404) },
-                        { label = "P2 Class 80x 5",  pos = Vector3.new( 11461.5430,    8.0481, -37611.2305), look = Vector3.new( -0.9992,   0.0000,  -0.0404) },
-                        { label = "P2 HST 2+4",      pos = Vector3.new( 11461.5430,    8.0481, -37611.2305), look = Vector3.new( -0.9992,   0.0000,  -0.0404) },
-                        { label = "P2 S",            pos = Vector3.new( 11690.1846,    8.0402, -37609.6914), look = Vector3.new( -0.9986,   0.0000,  -0.0538) },
-                        { label = "P2 Class 80x 9-10", pos = Vector3.new( 11690.1846,    8.0402, -37609.6914), look = Vector3.new( -0.9986,   0.0000,  -0.0538) },
-                        { label = "P2 HST S",        pos = Vector3.new( 11690.1846,    8.0402, -37609.6914), look = Vector3.new( -0.9986,   0.0000,  -0.0538) },
-                        { label = "P1 2-3",          pos = Vector3.new( 11319.9980,    3.6481, -37642.1602), look = Vector3.new( -0.9994,   0.0000,  -0.0360) },
-                        { label = "P1 4-6",          pos = Vector3.new( 11461.9258,    3.6481, -37641.7109), look = Vector3.new( -0.9985,  -0.0000,  -0.0543) },
-                        { label = "P1 Class 80x 5",  pos = Vector3.new( 11461.9258,    3.6481, -37641.7109), look = Vector3.new( -0.9985,  -0.0000,  -0.0543) },
-                        { label = "P1 HST 2+5",      pos = Vector3.new( 11461.9258,    3.6481, -37641.7109), look = Vector3.new( -0.9985,  -0.0000,  -0.0543) },
-                        { label = "P1 S",            pos = Vector3.new( 11690.1094,    8.0423, -37627.6328), look = Vector3.new( -0.9998,   0.0000,   0.0192) },
-                        { label = "P1 Class 80x 9-10", pos = Vector3.new( 11690.1094,    8.0423, -37627.6328), look = Vector3.new( -0.9998,   0.0000,   0.0192) },
-                        { label = "P1 HST S",        pos = Vector3.new( 11690.1094,    8.0423, -37627.6328), look = Vector3.new( -0.9998,   0.0000,   0.0192) },
-                    },
-                },
-            },
-        },
-
                 {
             name = "Edgemead",
 
