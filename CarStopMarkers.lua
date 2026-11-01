@@ -84,7 +84,7 @@ return {
                     { label = "P2 4",            pos = Vector3.new( -2920.1323,    8.0481,  -5313.8335), look = Vector3.new( -0.0139,  -0.0000,  -0.9999) },
                     { label = "P2 2-3",          pos = Vector3.new( -2922.2717,    8.0481,  -5368.4062), look = Vector3.new( -0.1091,   0.0000,  -0.9940) },
                 },
-                ["Benton Bridge", "Port Benton"] = {
+                ["Benton Bridge|Port Benton"] = {
                     { label = "P8 4-8",          pos = Vector3.new( -2736.7627,    8.0481,  -5552.4531), look = Vector3.new(  0.0140,   0.0000,   0.9999) },
                         { label = "P8 Class 80x 5",  pos = Vector3.new( -2736.7627,    8.0481,  -5552.4531), look = Vector3.new(  0.0140,   0.0000,   0.9999) },
                         { label = "P8 HST 2+4/5",    pos = Vector3.new( -2736.7627,    8.0481,  -5552.4531), look = Vector3.new(  0.0140,   0.0000,   0.9999) },
@@ -207,7 +207,7 @@ return {
                     { label = "P1 HST 2+4",      pos = Vector3.new(   -95.8999,   28.8480,  12317.8223), look = Vector3.new(  0.0463,  -0.0000,   0.9989) },
                     { label = "P1 HST 2+5",      pos = Vector3.new(  -100.6894,   28.8480,  12258.1221), look = Vector3.new(  0.0009,   0.0000,   1.0000) },
                     { label = "P1 HST S",        pos = Vector3.new(  -106.4977,   28.8477,  12186.2168), look = Vector3.new(  0.0910,  -0.0002,   0.9959) },
-                    { label = "P1Class 80x 9-10", pos = Vector3.new(  -106.4977,   28.8477,  12186.2168), look = Vector3.new(  0.0910,  -0.0002,   0.9959) },
+                    { label = "P1 Class 80x 9-10", pos = Vector3.new(  -106.4977,   28.8477,  12186.2168), look = Vector3.new(  0.0910,  -0.0002,   0.9959) },
                     { label = "P3 Class 158 2-3", pos = Vector3.new(   -18.5546,   28.8481,  12387.3594), look = Vector3.new(  0.0968,  -0.0000,   0.9953) },
                     { label = "P3 4-6",          pos = Vector3.new(   -28.2066,   28.8481,  12303.1895), look = Vector3.new(  0.1060,   0.0000,   0.9944) },
                     { label = "P3 Metro 555/777 ALL", pos = Vector3.new(   -28.2066,   28.8481,  12303.1895), look = Vector3.new(  0.1060,   0.0000,   0.9944) },
@@ -413,7 +413,7 @@ return {
             name = "Leighton City",
 
             to = {
-                ["Leigthon Stepford Road"] = {
+                ["Leighton Stepford Road"] = {
                     { label = "P3 2-3",          pos = Vector3.new(  2157.2861,    8.0481, -37580.0508), look = Vector3.new(  0.9997,   0.0000,   0.0263) },
                     { label = "P3 4",            pos = Vector3.new(  2124.7173,    8.0481, -37580.4219), look = Vector3.new(  0.9980,   0.0000,   0.0626) },
                     { label = "P3 Class 80x 5",  pos = Vector3.new(  2022.7051,    8.0481, -37576.7227), look = Vector3.new(  0.9984,   0.0000,   0.0562) },
