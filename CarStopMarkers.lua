@@ -735,6 +735,103 @@ return {
                     },
                 },
             },
+
+                    {
+            name = "City Hospital",
+
+            to = {
+                ["Stepford Central"] = {
+                    { label = "P1 Metro 3",      pos = Vector3.new(     8.6695,   24.5480,  27806.8730), look = Vector3.new( -0.0241,  -0.0000,   0.9997) },
+                    { label = "P1 Metro 6",      pos = Vector3.new(    14.6650,   24.5480,  27742.1211), look = Vector3.new( -0.0433,   0.0000,   0.9991) },
+                    { label = "P1 Metro 555/777 4-5", pos = Vector3.new(    14.6650,   24.5480,  27742.1211), look = Vector3.new( -0.0433,   0.0000,   0.9991) },
+                    { label = "P1 2-4",          pos = Vector3.new(    14.6650,   24.5480,  27742.1211), look = Vector3.new( -0.0433,   0.0000,   0.9991) },
+                    { label = "P1 S",            pos = Vector3.new(    18.5061,   24.5480,  27664.0469), look = Vector3.new(  0.0003,   0.0000,   1.0000) },
+                    { label = "P1 Metro 555/777 8-10", pos = Vector3.new(    18.5061,   24.5480,  27664.0469), look = Vector3.new(  0.0003,   0.0000,   1.0000) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "Financial Quarter", "Beechley" },
+                    markers = {
+                        { label = "P2 Metro 3",      pos = Vector3.new(    70.4791,   24.5480,  27946.5605), look = Vector3.new(  0.0031,   0.0000,  -1.0000) },
+                        { label = "P2 Metro 6",      pos = Vector3.new(    65.0013,   24.5480,  28011.0078), look = Vector3.new(  0.1072,   0.0000,  -0.9942) },
+                        { label = "P2 Metro 555/777 4-5", pos = Vector3.new(    65.0013,   24.5480,  28011.0078), look = Vector3.new(  0.1072,   0.0000,  -0.9942) },
+                        { label = "P2 2-4",          pos = Vector3.new(    65.0013,   24.5480,  28011.0078), look = Vector3.new(  0.1072,   0.0000,  -0.9942) },
+                        { label = "P2 S",            pos = Vector3.new(    59.6293,   24.5480,  28069.9023), look = Vector3.new(  0.0769,  -0.0000,  -0.9970) },
+                        { label = "P2 Metro 555/777 8-10", pos = Vector3.new(    59.6293,   24.5480,  28069.9023), look = Vector3.new(  0.0769,  -0.0000,  -0.9970) },
+                    },
+                },
+            },
+        },
+
+                    {
+            name = "Stepford Central",
+
+            to = {
+                ["Four Ways"] = {
+                    { label = "PA Metro 3",      pos = Vector3.new(    -9.3960,  -19.1519,  25071.6816), look = Vector3.new( -0.0105,  -0.0000,   0.9999) },
+                    { label = "PA 3",            pos = Vector3.new(    -6.0760,  -19.1555,  25028.4863), look = Vector3.new(  0.0184,  -0.0020,   0.9998) },
+                    { label = "PA Metro 555/777 4-5", pos = Vector3.new(    -6.0759,  -19.1555,  25028.4863), look = Vector3.new(  0.0181,  -0.0020,   0.9998) },
+                    { label = "PA Metro 6",      pos = Vector3.new(    -9.6155,  -19.1519,  25002.0254), look = Vector3.new(  0.0196,   0.0000,   0.9998) },
+                    { label = "PA S",            pos = Vector3.new(    -5.8938,  -19.1550,  24927.7969), look = Vector3.new(  0.0182,  -0.0015,   0.9998) },
+                    { label = "PA Metro 555/777 8-10", pos = Vector3.new(    -5.8937,  -19.1549,  24927.7969), look = Vector3.new(  0.0181,  -0.0017,   0.9998) },
+                    { label = "PB Metro 3",      pos = Vector3.new(    30.2237,  -19.1519,  25071.6680), look = Vector3.new( -0.0014,   0.0000,   1.0000) },
+                    { label = "PB Metro 555/777 4-5", pos = Vector3.new(    31.2890,  -19.1544,  25028.7559), look = Vector3.new(  0.0257,  -0.0014,   0.9997) },
+                    { label = "PB 3",            pos = Vector3.new(    31.2890,  -19.1544,  25028.7559), look = Vector3.new(  0.0255,  -0.0014,   0.9997) },
+                    { label = "PB Metro 6",      pos = Vector3.new(    30.1793,  -19.1519,  25001.9707), look = Vector3.new(  0.0034,  -0.0000,   1.0000) },
+                    { label = "PB S",            pos = Vector3.new(    31.0980,  -19.1534,  24927.8008), look = Vector3.new( -0.0081,  -0.0008,   1.0000) },
+                    { label = "PB Metro 555/777 8-10", pos = Vector3.new(    31.0980,  -19.1534,  24927.8008), look = Vector3.new( -0.0081,  -0.0008,   1.0000) },
+                    { label = "PC Metro 3",      pos = Vector3.new(    47.1137,  -19.2186,  25071.7324), look = Vector3.new(  0.0770,   0.0140,   0.9969) },
+                    { label = "PC 3",            pos = Vector3.new(    49.6512,  -19.1545,  25028.4668), look = Vector3.new(  0.0434,  -0.0014,   0.9991) },
+                    { label = "PC Metro 555/777 4-5", pos = Vector3.new(    49.6512,  -19.1545,  25028.4668), look = Vector3.new(  0.0434,  -0.0014,   0.9991) },
+                    { label = "PC Metro 6",      pos = Vector3.new(    47.2679,  -19.1519,  25002.0312), look = Vector3.new(  0.0024,   0.0000,   1.0000) },
+                    { label = "PC S",            pos = Vector3.new(    49.4008,  -19.1536,  24927.8027), look = Vector3.new(  0.0194,  -0.0009,   0.9998) },
+                    { label = "PC Metro 555/777 8-10", pos = Vector3.new(    49.4008,  -19.1536,  24927.8027), look = Vector3.new(  0.0193,  -0.0009,   0.9998) },
+                },
+                ["City Hospital"] = {
+                    { label = "PB Metro 3",      pos = Vector3.new(    30.3677,  -19.1519,  25201.9453), look = Vector3.new( -0.0164,   0.0000,  -0.9999) },
+                    { label = "PB S",            pos = Vector3.new(    31.4045,  -19.1551,  25238.7598), look = Vector3.new(  0.0164,  -0.0018,  -0.9999) },
+                    { label = "PB Metro 555/777 4-5", pos = Vector3.new(    31.4045,  -19.1551,  25238.7598), look = Vector3.new(  0.0163,  -0.0018,  -0.9999) },
+                    { label = "PB Metro 6",      pos = Vector3.new(    30.3434,  -19.1519,  25284.8359), look = Vector3.new( -0.0034,   0.0000,  -1.0000) },
+                    { label = "PB S",            pos = Vector3.new(    31.3795,  -19.1525,  25344.9531), look = Vector3.new( -0.0167,  -0.0003,  -0.9999) },
+                    { label = "PB Metro 555/777 8-10", pos = Vector3.new(    31.3795,  -19.1525,  25344.9531), look = Vector3.new( -0.0167,  -0.0003,  -0.9999) },
+                    { label = "PC S",            pos = Vector3.new(    49.3930,  -19.1540,  25345.1934), look = Vector3.new( -0.0035,  -0.0012,  -1.0000) },
+                    { label = "PC Metro 555/777 8-10", pos = Vector3.new(    49.3930,  -19.1540,  25345.1934), look = Vector3.new( -0.0035,  -0.0012,  -1.0000) },
+                    { label = "PC Metro 6",      pos = Vector3.new(    47.5997,  -19.1519,  25284.9414), look = Vector3.new(  0.0517,   0.0000,  -0.9987) },
+                    { label = "PC 3",            pos = Vector3.new(    49.4362,  -19.1541,  25239.0098), look = Vector3.new(  0.0222,  -0.0012,  -0.9998) },
+                    { label = "PC Metro 555/777 4-5", pos = Vector3.new(    49.4362,  -19.1541,  25239.0098), look = Vector3.new(  0.0222,  -0.0013,  -0.9998) },
+                    { label = "PC Metro 3",      pos = Vector3.new(    47.5699,  -19.1519,  25201.9980), look = Vector3.new( -0.0017,   0.0000,  -1.0000) },
+                    { label = "PD Metro 3",      pos = Vector3.new(    87.1491,  -19.1590,  25201.9160), look = Vector3.new(  0.0041,   0.0279,  -0.9996) },
+                    { label = "PD 3",            pos = Vector3.new(    86.7469,  -19.1571,  25238.7461), look = Vector3.new(  0.0097,  -0.0029,  -0.9999) },
+                    { label = "PD Metro 555/777 4-5", pos = Vector3.new(    86.7469,  -19.1571,  25238.7461), look = Vector3.new(  0.0096,  -0.0029,  -1.0000) },
+                    { label = "PD Metro 6",      pos = Vector3.new(    86.9056,  -19.1519,  25284.8262), look = Vector3.new(  0.0077,   0.0000,  -1.0000) },
+                    { label = "PD S",            pos = Vector3.new(    86.8902,  -19.1529,  25344.9375), look = Vector3.new(  0.0207,  -0.0006,  -0.9998) },
+                    { label = "PD Metro 555/777 8-10", pos = Vector3.new(    86.8902,  -19.1529,  25344.9375), look = Vector3.new(  0.0207,  -0.0006,  -0.9998) },
+                },
+            },
+        },
+
+                    {
+            name = "Four Ways",
+
+            to = {
+                ["Stepford East"] = {
+                    { label = "PA Metro ALL",    pos = Vector3.new(    -7.5560,  -19.1521,  21708.4707), look = Vector3.new( -0.0388,  -0.0000,   0.9992) },
+                    { label = "PA Metro 555/777 4-5", pos = Vector3.new(    -7.5560,  -19.1521,  21708.4707), look = Vector3.new( -0.0388,  -0.0000,   0.9992) },
+                    { label = "PA 3",            pos = Vector3.new(    -7.5560,  -19.1521,  21708.4707), look = Vector3.new( -0.0388,  -0.0000,   0.9992) },
+                    { label = "PA S",            pos = Vector3.new(    -7.3534,  -19.1546,  21624.0254), look = Vector3.new(  0.0016,  -0.0013,   1.0000) },
+                    { label = "PA Metro 555/777 8-10", pos = Vector3.new(    -7.3533,  -19.1546,  21624.0254), look = Vector3.new(  0.0016,  -0.0014,   1.0000) },
+                },
+                ["Stepford Central"] = {
+                    { label = "PB Metro ALL",    pos = Vector3.new(    31.3147,  -19.1528,  21912.1855), look = Vector3.new( -0.0342,  -0.0004,  -0.9994) },
+                    { label = "PB Metro 555/777 4-5", pos = Vector3.new(    31.3147,  -19.1528,  21912.1855), look = Vector3.new( -0.0342,  -0.0004,  -0.9994) },
+                    { label = "PB 3",            pos = Vector3.new(    31.3147,  -19.1528,  21912.1855), look = Vector3.new( -0.0342,  -0.0004,  -0.9994) },
+                    { label = "PB S",            pos = Vector3.new(    31.1456,  -19.1595,  22027.4512), look = Vector3.new( -0.0012,  -0.0038,  -1.0000) },
+                    { label = "PB Metro 555/777 8-10", pos = Vector3.new(    31.1450,  -19.1592,  22027.4512), look = Vector3.new(  0.0004,  -0.0039,  -1.0000) },
+                },
+            },
+        },
         },
     },
 }
