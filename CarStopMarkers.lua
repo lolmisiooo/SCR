@@ -766,7 +766,7 @@ return {
         },
 
                     {
-            name = "Stepford Central",
+            name = "Stepford Central (Metro)",
 
             to = {
                 ["Four Ways"] = {
@@ -812,8 +812,29 @@ return {
             },
         },
 
+                {
+            name = "Stepford Central",
+
+            to = {
+                ["City Hospital"] = {
+                    { label = "P11 S",           pos = Vector3.new(    51.2427,   28.8481,  25607.4551), look = Vector3.new(  0.0389,   0.0000,  -0.9992) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "Stepford East", "Four Ways" },
+                    markers = {
+                        { label = "P10 2-3",         pos = Vector3.new(    18.7832,   28.8481,  25347.7090), look = Vector3.new( -0.0170,   0.0000,   0.9999) },
+                        { label = "P10 4",           pos = Vector3.new(    20.6776,   28.8481,  25283.5879), look = Vector3.new( -0.0245,   0.0000,   0.9997) },
+                        { label = "P10 S",           pos = Vector3.new(    25.4991,   28.8481,  24998.4922), look = Vector3.new(  0.0099,   0.0000,   1.0000) },
+                    },
+                },
+            },
+        },
+
                     {
-            name = "Four Ways",
+            name = "Four Ways (Metro)",
 
             to = {
                 ["Stepford East"] = {
@@ -829,6 +850,434 @@ return {
                     { label = "PB 3",            pos = Vector3.new(    31.3147,  -19.1528,  21912.1855), look = Vector3.new( -0.0342,  -0.0004,  -0.9994) },
                     { label = "PB S",            pos = Vector3.new(    31.1456,  -19.1595,  22027.4512), look = Vector3.new( -0.0012,  -0.0038,  -1.0000) },
                     { label = "PB Metro 555/777 8-10", pos = Vector3.new(    31.1450,  -19.1592,  22027.4512), look = Vector3.new(  0.0004,  -0.0039,  -1.0000) },
+                },
+            },
+        },
+
+                {
+            name = "Stepford East (Metro)",
+
+            sets = {
+                {
+                    next = { "Stepford High Street", "St Helens Bridge" },
+                    markers = {
+                        { label = "PA Metro ALL",    pos = Vector3.new(   -24.5869,  -19.1528,  18990.8809), look = Vector3.new( -0.0278,  -0.0003,   0.9996) },
+                        { label = "PA Metro 555/777 4-5", pos = Vector3.new(   -24.5869,  -19.1528,  18990.8809), look = Vector3.new( -0.0278,  -0.0003,   0.9996) },
+                        { label = "PA 3",            pos = Vector3.new(   -24.5869,  -19.1528,  18990.8809), look = Vector3.new( -0.0278,  -0.0003,   0.9996) },
+                        { label = "PA S",            pos = Vector3.new(   -24.5238,  -19.1542,  18904.8691), look = Vector3.new( -0.0191,  -0.0010,   0.9998) },
+                        { label = "PA Metro 555/777 8-10", pos = Vector3.new(   -24.5238,  -19.1542,  18904.8691), look = Vector3.new( -0.0191,  -0.0010,   0.9998) },
+                        { label = "PB Metro ALL",    pos = Vector3.new(    -7.5223,  -19.1560,  18990.8887), look = Vector3.new( -0.0753,  -0.0018,   0.9972) },
+                        { label = "PB Metro 555/777 4-5", pos = Vector3.new(    -7.5215,  -19.1558,  18990.8887), look = Vector3.new( -0.0762,  -0.0020,   0.9971) },
+                        { label = "PB S",            pos = Vector3.new(    -7.7009,  -19.1525,  18990.8555), look = Vector3.new( -0.0401,  -0.0001,   0.9992) },
+                        { label = "PB S",            pos = Vector3.new(    -7.6533,  -19.1603,  18904.8398), look = Vector3.new(  0.0082,  -0.0034,   1.0000) },
+                        { label = "PB Metro 555/777 8-10", pos = Vector3.new(    -7.6525,  -19.1597,  18904.8379), look = Vector3.new(  0.0070,  -0.0041,   1.0000) },
+                    },
+                },
+                {
+                    next = { "Four Ways", "Stepford Central" },
+                    markers = {
+                        { label = "PC Metro ALL",    pos = Vector3.new(    31.2717,  -19.1566,  19195.9531), look = Vector3.new(  0.0552,  -0.0020,  -0.9985) },
+                        { label = "PC Metro 555/777 4-5", pos = Vector3.new(    31.2713,  -19.1564,  19195.9531), look = Vector3.new(  0.0556,  -0.0023,  -0.9984) },
+                        { label = "PC 3",            pos = Vector3.new(    31.2713,  -19.1564,  19195.9531), look = Vector3.new(  0.0556,  -0.0023,  -0.9985) },
+                        { label = "PC S",            pos = Vector3.new(    31.2273,  -19.1526,  19313.8848), look = Vector3.new( -0.0180,  -0.0002,  -0.9998) },
+                        { label = "PC Metro 555/777 8-10", pos = Vector3.new(    31.2273,  -19.1526,  19313.8848), look = Vector3.new( -0.0180,  -0.0002,  -0.9998) },
+                        { label = "PD 3",            pos = Vector3.new(    48.0066,  -19.1586,  19195.9180), look = Vector3.new( -0.0046,  -0.0035,  -1.0000) },
+                        { label = "PD Metro 555/777 4-5", pos = Vector3.new(    48.0067,  -19.1586,  19195.9180), look = Vector3.new( -0.0046,  -0.0035,  -1.0000) },
+                        { label = "PD Metro ALL",    pos = Vector3.new(    48.0067,  -19.1586,  19195.9180), look = Vector3.new( -0.0046,  -0.0035,  -1.0000) },
+                        { label = "PD S",            pos = Vector3.new(    48.0600,  -19.1546,  19313.8359), look = Vector3.new( -0.0002,  -0.0013,  -1.0000) },
+                        { label = "PD Metro 555/777 8-10", pos = Vector3.new(    48.0600,  -19.1546,  19313.8359), look = Vector3.new( -0.0002,  -0.0013,  -1.0000) },
+                    },
+                },
+            },
+        },
+
+                {
+            name = "Stepford High Street (Metro)",
+
+            to = {
+                ["Stepford East"] = {
+                    { label = "PB Metro ALL",    pos = Vector3.new(   -19.9472,  -19.1525,  15642.9209), look = Vector3.new( -0.3375,  -0.0003,  -0.9413) },
+                    { label = "PB Metro 555/777 ALL", pos = Vector3.new(   -19.9472,  -19.1525,  15642.9209), look = Vector3.new( -0.3375,  -0.0003,  -0.9413) },
+                    { label = "PB S",            pos = Vector3.new(   -19.9472,  -19.1525,  15642.9209), look = Vector3.new( -0.3375,  -0.0003,  -0.9413) },
+                    { label = "PD Metro ALL",    pos = Vector3.new(    38.8623,  -19.1575,  15667.3271), look = Vector3.new(  0.0504,  -0.0031,  -0.9987) },
+                    { label = "PD Metro 555/777 ALL", pos = Vector3.new(    38.8622,  -19.1575,  15667.3271), look = Vector3.new(  0.0503,  -0.0031,  -0.9987) },
+                    { label = "PD S",            pos = Vector3.new(    38.8622,  -19.1575,  15667.3271), look = Vector3.new(  0.0503,  -0.0031,  -0.9987) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "St Helens Bridge", "Whitefield Lido" },
+                    markers = {
+                        { label = "PA Metro 3",      pos = Vector3.new(  -141.1677,  -19.1718,  15524.3877), look = Vector3.new(  0.6683,  -0.0090,   0.7438) },
+                        { label = "PA Metro 555/777 4-5", pos = Vector3.new(  -141.1677,  -19.1713,  15524.3877), look = Vector3.new(  0.6684,  -0.0089,   0.7438) },
+                        { label = "PA 3",            pos = Vector3.new(  -141.1677,  -19.1711,  15524.3877), look = Vector3.new(  0.6684,  -0.0088,   0.7438) },
+                        { label = "PA Metro 6",      pos = Vector3.new(  -194.0478,  -19.1519,  15473.1064), look = Vector3.new(  0.7511,   0.0000,   0.6602) },
+                        { label = "PA S",            pos = Vector3.new(  -302.4901,  -19.1531,  15403.5381), look = Vector3.new(  0.8716,  -0.0007,   0.4903) },
+                        { label = "PA Metro 555/777 8-10", pos = Vector3.new(  -302.4901,  -19.1531,  15403.5381), look = Vector3.new(  0.8716,  -0.0007,   0.4903) },
+                        { label = "PC Metro ALL",    pos = Vector3.new(     1.9853,  -19.1522,  15354.6348), look = Vector3.new(  0.0144,  -0.0002,   0.9999) },
+                        { label = "PC Metro 555/777 4-5", pos = Vector3.new(     1.9853,  -19.1522,  15354.6348), look = Vector3.new(  0.0144,  -0.0002,   0.9999) },
+                        { label = "PC 3",            pos = Vector3.new(     1.9853,  -19.1522,  15354.6348), look = Vector3.new(  0.0144,  -0.0002,   0.9999) },
+                        { label = "PC S",            pos = Vector3.new(     1.9908,  -19.1612,  15260.4609), look = Vector3.new( -0.0751,  -0.0053,   0.9972) },
+                        { label = "PC Metro 555/777 8-10", pos = Vector3.new(     1.9902,  -19.1608,  15260.4609), look = Vector3.new( -0.0744,  -0.0053,   0.9972) },
+                    },
+                },
+            },
+        },
+
+                {
+            name = "Whitefield Lido",
+
+            to = {
+                ["Stepford High Street"] = {
+                    { label = "P2 Metro ALL",    pos = Vector3.new( -2374.9192,   28.8463,  15324.5293), look = Vector3.new( -1.0000,  -0.0000,  -0.0088) },
+                    { label = "P2 Metro 555/777 ALL", pos = Vector3.new( -2374.9192,   28.8463,  15324.5293), look = Vector3.new( -1.0000,   0.0000,  -0.0088) },
+                    { label = "P2 S",            pos = Vector3.new( -2374.9192,   28.8463,  15324.5293), look = Vector3.new( -1.0000,   0.0000,  -0.0088) },
+                },
+                ["Stepford United Football Club"] = {
+                    { label = "P1 Metro 3",      pos = Vector3.new( -2623.9695,   28.8481,  15353.2842), look = Vector3.new(  0.9998,  -0.0000,  -0.0210) },
+                    { label = "P1 Metro 555/777 4-5", pos = Vector3.new( -2623.9695,   28.8481,  15353.2842), look = Vector3.new(  0.9998,  -0.0000,  -0.0210) },
+                    { label = "P1 2-3",          pos = Vector3.new( -2623.9863,   28.8311,  15353.1006), look = Vector3.new(  0.9996,  -0.0100,   0.0263) },
+                    { label = "P1 Metro 6",      pos = Vector3.new( -2713.5955,   28.8481,  15352.3105), look = Vector3.new(  0.9999,   0.0000,   0.0109) },
+                    { label = "P1 Metro 555/777 8-10", pos = Vector3.new( -2793.3489,   28.8385,  15350.7842), look = Vector3.new(  0.9992,  -0.0057,   0.0405) },
+                    { label = "P1 S",            pos = Vector3.new( -2793.3489,   28.8386,  15350.7842), look = Vector3.new(  0.9992,  -0.0057,   0.0402) },
+                },
+            },
+        },
+
+                {
+            name = "Stepford United Football Club",
+
+            to = {
+                ["Whitefield Lido"] = {
+                    { label = "P4 2-3",          pos = Vector3.new( -5872.4370,    5.4379,  14504.0234), look = Vector3.new( -0.9994,  -0.0056,  -0.0329) },
+                    { label = "P4 Metro 555/777 4-5", pos = Vector3.new( -5872.4370,    5.4387,  14504.0234), look = Vector3.new( -0.9995,  -0.0056,  -0.0321) },
+                    { label = "P4 S",            pos = Vector3.new( -5816.3062,    5.4479,  14507.9434), look = Vector3.new( -0.9999,   0.0000,  -0.0109) },
+                    { label = "P4 Metro 555/777 8-10", pos = Vector3.new( -5816.3062,    5.4479,  14507.9434), look = Vector3.new( -0.9999,   0.0000,  -0.0109) },
+                },
+                ["Woodhead Lane"] = {
+                    { label = "P3 2-3",          pos = Vector3.new( -6109.1616,    5.4479,  14538.4873), look = Vector3.new(  0.9973,   0.0000,   0.0738) },
+                    { label = "P3 S",            pos = Vector3.new( -6228.3687,    5.4479,  14537.9551), look = Vector3.new(  0.9999,   0.0000,   0.0148) },
+                },
+            },
+        },
+
+                {
+            name = "New Harrow",
+
+            to = {
+                ["Elsemere Pond"] = {
+                    { label = "P1 Metro ALL",    pos = Vector3.new(   -26.8354,    7.9837,   8113.5117), look = Vector3.new( -0.0053,   0.0000,   1.0000) },
+                    { label = "P1 S",            pos = Vector3.new(   -26.8354,    7.9837,   8113.5117), look = Vector3.new( -0.0053,   0.0000,   1.0000) },
+                    { label = "P1 Metro 555/777 4-5", pos = Vector3.new(   -26.8354,    7.9837,   8113.5117), look = Vector3.new( -0.0053,   0.0000,   1.0000) },
+                    { label = "P1 Metro 555/777 8-10", pos = Vector3.new(   -26.8354,    7.9837,   8113.5117), look = Vector3.new( -0.0053,   0.0000,   1.0000) },
+                },
+                ["St Helens Bridge"] = {
+                    { label = "P2 Metro 6",      pos = Vector3.new(    18.8619,    8.0481,   8400.5547), look = Vector3.new(  0.0406,   0.0000,  -0.9992) },
+                    { label = "P2 S",            pos = Vector3.new(     5.9203,    8.0290,   8448.6670), look = Vector3.new(  0.0384,  -0.0000,  -0.9993) },
+                    { label = "P2 Metro 555/777 4-5", pos = Vector3.new(     5.9203,    8.0290,   8448.6670), look = Vector3.new(  0.0384,  -0.0000,  -0.9993) },
+                    { label = "P2 Metro 555/777 8-10", pos = Vector3.new(     5.9203,    8.0290,   8448.6670), look = Vector3.new(  0.0384,  -0.0000,  -0.9993) },
+                },
+            },
+        },
+
+                {
+            name = "Elsemere Pond",
+
+            to = {
+                ["Elsemere Junction"] = {
+                    { label = "P1 S",            pos = Vector3.new(   -27.2565,    8.0481,   5477.7334), look = Vector3.new(  0.0174,   0.0000,   0.9998) },
+                    { label = "P1 Metro ALL",    pos = Vector3.new(   -27.2565,    8.0481,   5477.7334), look = Vector3.new(  0.0174,   0.0000,   0.9998) },
+                    { label = "P1 Metro 555/777 4-5", pos = Vector3.new(   -27.2565,    8.0481,   5477.7334), look = Vector3.new(  0.0174,   0.0000,   0.9998) },
+                    { label = "P1 Metro 555/777 8-10", pos = Vector3.new(   -27.2565,    8.0481,   5477.7334), look = Vector3.new(  0.0174,   0.0000,   0.9998) },
+                },
+                ["New Harrow"] = {
+                    { label = "P2 Metro 3",      pos = Vector3.new(    16.2641,    8.0481,   5640.2412), look = Vector3.new(  0.0086,   0.0000,  -1.0000) },
+                    { label = "P2 Metro 6",      pos = Vector3.new(    13.8303,    8.0480,   5748.4346), look = Vector3.new(  0.0260,  -0.0000,  -0.9997) },
+                    { label = "P2 Metro 555/777 4-5", pos = Vector3.new(    13.8303,    8.0480,   5748.4346), look = Vector3.new(  0.0260,  -0.0000,  -0.9997) },
+                    { label = "P2 3",            pos = Vector3.new(    13.8303,    8.0480,   5748.4346), look = Vector3.new(  0.0260,  -0.0000,  -0.9997) },
+                    { label = "P2 S",            pos = Vector3.new(     5.5163,   11.0481,   5816.6538), look = Vector3.new(  0.0458,   0.0000,  -0.9989) },
+                    { label = "P2 Metro 555/777 8-10", pos = Vector3.new(     5.5163,   11.0481,   5816.6538), look = Vector3.new(  0.0458,   0.0000,  -0.9989) },
+                },
+            },
+        },
+
+                {
+            name = "Berrily",
+
+            sets = {
+                {
+                    next = { "Denton Road", "Easy Berrily" },
+                    markers = {
+                        { label = "P3 2-5",          pos = Vector3.new(   526.4713,    8.0481,    453.2735), look = Vector3.new( -0.2589,   0.0000,   0.9659) },
+                        { label = "P3 Metro 555/777 4-5", pos = Vector3.new(   526.4713,    8.0481,    453.2735), look = Vector3.new( -0.2589,   0.0000,   0.9659) },
+                        { label = "P3 Metro ALL",    pos = Vector3.new(   526.4713,    8.0481,    453.2735), look = Vector3.new( -0.2589,   0.0000,   0.9659) },
+                        { label = "P3 6",            pos = Vector3.new(   547.7812,    8.0481,    373.9738), look = Vector3.new( -0.3160,   0.0000,   0.9488) },
+                        { label = "P3 Metro 555/777 8-10", pos = Vector3.new(   547.7812,    8.0481,    373.9738), look = Vector3.new( -0.3160,   0.0000,   0.9488) },
+                        { label = "P3 S",            pos = Vector3.new(   566.2120,    8.0481,    305.9419), look = Vector3.new( -0.2415,   0.0000,   0.9704) },
+                        { label = "P5 3-5",          pos = Vector3.new(   590.3087,    8.0481,    470.7039), look = Vector3.new( -0.2440,   0.0000,   0.9698) },
+                        { label = "P5 6-8",          pos = Vector3.new(   607.8254,    8.0481,    390.3765), look = Vector3.new( -0.2965,  -0.0000,   0.9550) },
+                        { label = "P5 S",            pos = Vector3.new(   642.0472,    8.0481,    292.3593), look = Vector3.new( -0.2590,   0.0000,   0.9659) },
+                        { label = "P5 Class 80x ALL", pos = Vector3.new(   642.0472,    8.0481,    292.3593), look = Vector3.new( -0.2590,   0.0000,   0.9659) },
+                    },
+                },
+                {
+                    next = { "Elsemere Junction", "Barton" },
+                    markers = {
+                        { label = "P4 Metro 3",      pos = Vector3.new(   524.9352,    8.0481,    637.3420), look = Vector3.new(  0.2777,   0.0000,  -0.9607) },
+                        { label = "P4 Metro 6",      pos = Vector3.new(   503.6388,    8.0481,    723.8615), look = Vector3.new(  0.3133,   0.0000,  -0.9497) },
+                        { label = "P4 Metro 555/777 4-5", pos = Vector3.new(   503.6388,    8.0481,    723.8615), look = Vector3.new(  0.3133,   0.0000,  -0.9497) },
+                        { label = "P4 2-5",          pos = Vector3.new(   503.6388,    8.0481,    723.8615), look = Vector3.new(  0.3133,   0.0000,  -0.9497) },
+                        { label = "P4 6",            pos = Vector3.new(   480.8647,    8.0481,    809.6343), look = Vector3.new(  0.3043,   0.0000,  -0.9526) },
+                        { label = "P4 Metro 555/777 8-10", pos = Vector3.new(   480.8647,    8.0481,    809.6343), look = Vector3.new(  0.3043,   0.0000,  -0.9526) },
+                        { label = "P4 S",            pos = Vector3.new(   450.5304,    8.0481,    921.8935), look = Vector3.new(  0.2651,   0.0000,  -0.9642) },
+                    },
+                },
+            },
+        },
+
+                {
+            name = "East Berrily",
+
+            to = {
+                ["Beaulieu Park"] = {
+                    { label = "P1 S",            pos = Vector3.new(   -31.1752,    7.9568,  -3502.3303), look = Vector3.new(  0.2577,  -0.0000,   0.9662) },
+                    { label = "P1 Metro 555/777 4-5", pos = Vector3.new(   -31.1752,    7.9568,  -3502.3303), look = Vector3.new(  0.2577,  -0.0000,   0.9662) },
+                    { label = "P1 Metro 555/777 8-10", pos = Vector3.new(   -31.1752,    7.9568,  -3502.3303), look = Vector3.new(  0.2577,  -0.0000,   0.9662) },
+                    { label = "P1 Metro ALL",    pos = Vector3.new(   -30.3747,    8.0481,  -3479.2566), look = Vector3.new(  0.2665,   0.0000,   0.9638) },
+                },
+                ["Berrily"] = {
+                    { label = "P2 Metro ALL",    pos = Vector3.new(    79.7515,    8.0481,  -3241.9709), look = Vector3.new( -0.2739,  -0.0000,  -0.9618) },
+                    { label = "P2 S",            pos = Vector3.new(    88.4965,    8.0228,  -3201.2593), look = Vector3.new( -0.2432,   0.0000,  -0.9700) },
+                    { label = "P2 Metro 555/777 4-5", pos = Vector3.new(    88.4965,    8.0228,  -3201.2593), look = Vector3.new( -0.2432,  -0.0000,  -0.9700) },
+                    { label = "P2 Metro 555/777 8-10", pos = Vector3.new(    88.4965,    8.0228,  -3201.2593), look = Vector3.new( -0.2432,  -0.0000,  -0.9700) },
+                },
+            },
+        },
+
+                {
+            name = "Beaulieu Park",
+
+            to = {
+                ["Morganstown"] = {
+                    { label = "P1 2-3",          pos = Vector3.new(   -38.3813,    8.0481,  -6954.8325), look = Vector3.new( -0.0598,  -0.0000,   0.9982) },
+                    { label = "P1 Metro 555/777 4-5", pos = Vector3.new(   -38.3813,    8.0481,  -6954.8325), look = Vector3.new( -0.0598,   0.0000,   0.9982) },
+                    { label = "P1 Metro ALL",    pos = Vector3.new(   -38.3813,    8.0481,  -6954.8325), look = Vector3.new( -0.0598,  -0.0000,   0.9982) },
+                    { label = "P1 4",            pos = Vector3.new(   -33.3794,    8.0481,  -7003.0449), look = Vector3.new( -0.1185,  -0.0000,   0.9929) },
+                    { label = "P1 S",            pos = Vector3.new(   -31.7349,    7.4461,  -7029.4443), look = Vector3.new( -0.1004,   0.0000,   0.9949) },
+                    { label = "P1 Metro 555/777 8-10", pos = Vector3.new(   -31.7349,    7.4461,  -7029.4443), look = Vector3.new( -0.1004,   0.0000,   0.9949) },
+                },
+                ["East Berilly"] = {
+                    { label = "P2 Metro ALL",    pos = Vector3.new(    -0.9898,    8.0481,  -6691.6924), look = Vector3.new( -0.1318,   0.0000,  -0.9913) },
+                    { label = "P2 4",            pos = Vector3.new(    -0.9898,    8.0481,  -6691.6924), look = Vector3.new( -0.1318,  -0.0000,  -0.9913) },
+                    { label = "P2 Metro 555/777 4-5", pos = Vector3.new(    -0.9898,    8.0481,  -6691.6924), look = Vector3.new( -0.1318,  -0.0000,  -0.9913) },
+                    { label = "P2 5-6",          pos = Vector3.new(     2.3781,    8.0481,  -6665.1812), look = Vector3.new( -0.0550,  -0.0000,  -0.9985) },
+                    { label = "P2 S",            pos = Vector3.new(     3.0734,    8.0634,  -6638.7422), look = Vector3.new( -0.0323,   0.0000,  -0.9995) },
+                    { label = "P2 Metro 555/777 8-10", pos = Vector3.new(     3.0734,    8.0634,  -6638.7422), look = Vector3.new( -0.0323,   0.0000,  -0.9995) },
+                },
+            },
+        },
+
+                {
+            name = "Angel Pass",
+
+            to = {
+                ["Bodin"] = {
+                    { label = "P1 Metro ALL",    pos = Vector3.new( -1493.6288,    8.0484,   9455.0156), look = Vector3.new(  0.9995,   0.0000,   0.0330) },
+                    { label = "P1 Metro 555/777 ALL", pos = Vector3.new( -1493.6288,    8.0484,   9455.0156), look = Vector3.new(  0.9995,   0.0000,   0.0330) },
+                    { label = "P1 S",            pos = Vector3.new( -1522.8744,    8.0484,   9455.1611), look = Vector3.new(  0.9999,   0.0000,   0.0138) },
+                },
+                ["St Helens Bridge"] = {
+                    { label = "P2 2",            pos = Vector3.new( -1202.8840,    8.0481,   9396.9102), look = Vector3.new( -0.9979,  -0.0000,  -0.0653) },
+                    { label = "P2 Metro 555/777 4-5", pos = Vector3.new( -1202.8840,    8.0481,   9396.9102), look = Vector3.new( -0.9979,  -0.0000,  -0.0653) },
+                    { label = "P2 Metro ALL",    pos = Vector3.new( -1183.4962,    8.0481,   9402.6592), look = Vector3.new( -0.9993,  -0.0000,  -0.0382) },
+                    { label = "P2 3-4",          pos = Vector3.new( -1132.5219,    8.0481,   9402.4668), look = Vector3.new( -0.9994,  -0.0000,  -0.0340) },
+                    { label = "P2 Metro 555/777 8-10", pos = Vector3.new( -1132.5219,    8.0481,   9402.4668), look = Vector3.new( -0.9994,  -0.0000,  -0.0340) },
+                    { label = "P2 5-6",          pos = Vector3.new( -1084.8359,    8.0481,   9402.6162), look = Vector3.new( -0.9978,   0.0000,  -0.0660) },
+                    { label = "P2 Class 720/730", pos = Vector3.new( -1084.8359,    8.0481,   9402.6162), look = Vector3.new( -0.9978,  -0.0000,  -0.0660) },
+                    { label = "P3 2",            pos = Vector3.new( -1206.3253,    2.8481,   9361.1152), look = Vector3.new( -0.9972,   0.0000,  -0.0744) },
+                    { label = "P3 Metro 555/777 4-5", pos = Vector3.new( -1206.3253,    2.8481,   9361.1152), look = Vector3.new( -0.9972,   0.0000,  -0.0744) },
+                    { label = "P3 Metro ALL",    pos = Vector3.new( -1183.8064,    2.8481,   9361.9033), look = Vector3.new( -0.9937,   0.0001,  -0.1123) },
+                    { label = "P3 3-4",          pos = Vector3.new( -1132.8274,    2.8481,   9364.7773), look = Vector3.new( -0.9938,   0.0000,  -0.1115) },
+                    { label = "P3 Class 720/730", pos = Vector3.new( -1064.0269,    2.8481,   9370.6055), look = Vector3.new( -0.9945,   0.0000,  -0.1046) },
+                    { label = "P3 5-6",          pos = Vector3.new( -1064.0269,    2.8481,   9370.6055), look = Vector3.new( -0.9945,   0.0000,  -0.1046) },
+                    { label = "P3 Metro 555/777 8-10", pos = Vector3.new( -1064.0269,    2.8481,   9370.6055), look = Vector3.new( -0.9945,   0.0000,  -0.1046) },
+                },
+            },
+        },
+
+                {
+            name = "Coxly Newtown",
+
+            to = {
+                ["Barton"] = {
+                    { label = "P1 Metro ALL",    pos = Vector3.new( -2782.3557,  -18.6410,   1741.9746), look = Vector3.new(  0.0060,   0.0000,   1.0000) },
+                    { label = "P1 Metro 555/777 4-5", pos = Vector3.new( -2782.3557,  -18.6409,   1741.9746), look = Vector3.new(  0.0060,   0.0000,   1.0000) },
+                    { label = "P1 3-4",          pos = Vector3.new( -2782.3557,  -18.6409,   1741.9746), look = Vector3.new(  0.0060,   0.0000,   1.0000) },
+                    { label = "P1 6",            pos = Vector3.new( -2782.5271,  -18.6409,   1646.2190), look = Vector3.new( -0.0293,   0.0000,   0.9996) },
+                    { label = "P1 S",            pos = Vector3.new( -2782.6763,  -18.6409,   1604.8528), look = Vector3.new(  0.0338,   0.0000,   0.9994) },
+                    { label = "P1 Metro 555/777 8-10", pos = Vector3.new( -2782.6763,  -18.6409,   1604.8528), look = Vector3.new(  0.0338,  -0.0000,   0.9994) },
+                },
+                ["Bodin"] = {
+                    { label = "P2 Metro 555/777 4-5", pos = Vector3.new( -2737.7473,  -18.6409,   2017.5857), look = Vector3.new(  0.0393,   0.0000,  -0.9992) },
+                    { label = "P2 Metro ALL",    pos = Vector3.new( -2737.7473,  -18.6409,   2017.5857), look = Vector3.new(  0.0393,   0.0000,  -0.9992) },
+                    { label = "P2 3-4",          pos = Vector3.new( -2737.7473,  -18.6409,   2017.5857), look = Vector3.new(  0.0393,   0.0000,  -0.9992) },
+                    { label = "P2 S",            pos = Vector3.new( -2737.4211,  -18.6409,   2053.9199), look = Vector3.new( -0.0420,  -0.0000,  -0.9991) },
+                    { label = "P2 Metro 555/777 8-10", pos = Vector3.new( -2737.4211,  -18.6409,   2053.9199), look = Vector3.new( -0.0420,  -0.0000,  -0.9991) },
+                },
+            },
+        },
+
+                {
+            name = "Barton",
+
+            to = {
+                ["Coxly Netwon"] = {
+                    { label = "P1 Metro ALL",    pos = Vector3.new( -1819.6785,  -23.7403,   1190.0031), look = Vector3.new(  0.8612,   0.0000,   0.5082) },
+                    { label = "P1 Metro 555/777 4-5", pos = Vector3.new( -1819.6785,  -23.7403,   1190.0031), look = Vector3.new(  0.8612,   0.0000,   0.5082) },
+                    { label = "P1 3-4",          pos = Vector3.new( -1819.6785,  -23.7403,   1190.0031), look = Vector3.new(  0.8612,   0.0000,   0.5082) },
+                    { label = "P1 S",            pos = Vector3.new( -1896.2955,  -20.9278,   1146.5450), look = Vector3.new(  0.8603,   0.0000,   0.5098) },
+                    { label = "P1 Metro 555/777 8-10", pos = Vector3.new( -1896.2955,  -20.9278,   1146.5450), look = Vector3.new(  0.8603,   0.0000,   0.5098) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "Berrily", "Elsemere Junction" },
+                    markers = {
+                        { label = "P2 Metro ALL",    pos = Vector3.new( -1585.0984,  -23.7403,   1267.1644), look = Vector3.new( -0.8197,  -0.0000,  -0.5728) },
+                        { label = "P2 Metro 555/777 4-5", pos = Vector3.new( -1585.0984,  -23.7403,   1267.1644), look = Vector3.new( -0.8197,  -0.0000,  -0.5728) },
+                        { label = "P2 3-4",          pos = Vector3.new( -1585.0984,  -23.7403,   1267.1644), look = Vector3.new( -0.8197,  -0.0000,  -0.5728) },
+                        { label = "P2 S",            pos = Vector3.new( -1512.6235,  -22.7203,   1319.0352), look = Vector3.new( -0.8000,   0.0000,  -0.6000) },
+                        { label = "P2 Metro 555/777 8-10", pos = Vector3.new( -1512.6235,  -22.7203,   1319.0352), look = Vector3.new( -0.8000,   0.0000,  -0.6000) },
+                    },
+                },
+            },
+        },
+
+                {
+            name = "Bodin",
+
+            sets = {
+                {
+                    next = { "St Helens Bridge", "Angel Pass" },
+                    markers = {
+                        { label = "P3 2-6",          pos = Vector3.new( -2774.4731,    8.0480,   7591.0513), look = Vector3.new(  0.0150,  -0.0000,  -0.9999) },
+                        { label = "P3 Metro 555/777 ALL", pos = Vector3.new( -2774.4731,    8.0480,   7591.0513), look = Vector3.new(  0.0150,  -0.0000,  -0.9999) },
+                        { label = "P3 Metro ALL",    pos = Vector3.new( -2774.4731,    8.0480,   7591.0513), look = Vector3.new(  0.0150,  -0.0000,  -0.9999) },
+                        { label = "P3 S",            pos = Vector3.new( -2777.2102,    8.0481,   7643.7583), look = Vector3.new( -0.0709,  -0.0000,  -0.9975) },
+                        { label = "P2 S",            pos = Vector3.new( -2786.0078,    8.0481,   7643.9028), look = Vector3.new(  0.0970,  -0.0000,  -0.9953) },
+                        { label = "P2 2-6",          pos = Vector3.new( -2789.0742,    8.0481,   7590.7993), look = Vector3.new(  0.0561,  -0.0000,  -0.9984) },
+                        { label = "P2 Metro ALL",    pos = Vector3.new( -2789.0742,    8.0481,   7590.7993), look = Vector3.new(  0.0561,  -0.0000,  -0.9984) },
+                        { label = "P2 Metro 555/777 ALL", pos = Vector3.new( -2789.0742,    8.0481,   7590.7993), look = Vector3.new(  0.0561,  -0.0000,  -0.9984) },
+                    },
+                },
+                {
+                    next = { "Coxly", "Coxly Newtown" },
+                    markers = {
+                        { label = "P1 Metro 555/777 4-5", pos = Vector3.new( -2844.7466,    8.0481,   7386.0669), look = Vector3.new( -0.0362,   0.0000,   0.9993) },
+                        { label = "P1 3",            pos = Vector3.new( -2845.1257,    8.0324,   7335.5391), look = Vector3.new(  0.0056,   0.0155,   0.9999) },
+                        { label = "P1 4",            pos = Vector3.new( -2844.5247,    8.0481,   7249.7036), look = Vector3.new(  0.0089,   0.0000,   1.0000) },
+                        { label = "P1 Metro ALL",    pos = Vector3.new( -2844.5247,    8.0481,   7249.7036), look = Vector3.new(  0.0089,   0.0000,   1.0000) },
+                        { label = "P1 Metro 555/777 8-10", pos = Vector3.new( -2845.3113,    8.0481,   7183.4004), look = Vector3.new(  0.0042,   0.0000,   1.0000) },
+                        { label = "P1 S",            pos = Vector3.new( -2844.6191,    8.0481,   7053.9312), look = Vector3.new(  0.0088,   0.0000,   1.0000) },
+                    },
+                },
+            },
+        },
+
+                {
+            name = "Coxly",
+
+            to = {
+                ["Bodin"] = {
+                    { label = "P3 2-3",          pos = Vector3.new( -2790.0881,    8.0481,    883.9886), look = Vector3.new(  0.0194,   0.0000,  -0.9998) },
+                    { label = "P3 Metro 555/777 4-5", pos = Vector3.new( -2790.0881,    8.0481,    883.9886), look = Vector3.new(  0.0194,  -0.0000,  -0.9998) },
+                    { label = "P3 Metro ALL",    pos = Vector3.new( -2790.0881,    8.0481,    883.9886), look = Vector3.new(  0.0194,  -0.0000,  -0.9998) },
+                    { label = "P3 S",            pos = Vector3.new( -2790.9204,    8.0481,    972.9931), look = Vector3.new( -0.0036,  -0.0000,  -1.0000) },
+                    { label = "P3 Metro 555/777 8-10", pos = Vector3.new( -2790.9204,    8.0481,    972.9931), look = Vector3.new( -0.0036,  -0.0000,  -1.0000) },
+                },
+                ["Benton"] = {
+                    { label = "P2 2-4",          pos = Vector3.new( -2844.4719,    8.0481,    608.6222), look = Vector3.new( -0.0062,   0.0000,   1.0000) },
+                    { label = "P2 Metro 3",      pos = Vector3.new( -2843.1018,    8.0481,    595.7688), look = Vector3.new( -0.0293,   0.0000,   0.9996) },
+                    { label = "P2 Metro 555/777 4-5", pos = Vector3.new( -2843.1018,    8.0481,    595.7688), look = Vector3.new( -0.0293,   0.0000,   0.9996) },
+                    { label = "P1 2-4",          pos = Vector3.new( -2866.2671,    2.8481,    608.6258), look = Vector3.new(  0.0011,   0.0000,   1.0000) },
+                    { label = "P1 Metro 3",      pos = Vector3.new( -2866.2671,    2.8481,    608.6258), look = Vector3.new(  0.0011,   0.0000,   1.0000) },
+                    { label = "P2 Metro 6",      pos = Vector3.new( -2841.6375,    8.0481,    524.4385), look = Vector3.new(  0.0175,   0.0000,   0.9998) },
+                    { label = "P1 Metro 6",      pos = Vector3.new( -2866.4983,    2.8481,    524.8320), look = Vector3.new(  0.0493,   0.0000,   0.9988) },
+                    { label = "P1 Metro 555/777 ALL", pos = Vector3.new( -2865.5647,    2.8481,    447.3446), look = Vector3.new( -0.0225,   0.0000,   0.9997) },
+                    { label = "P1 6",            pos = Vector3.new( -2865.5647,    2.8481,    447.3446), look = Vector3.new( -0.0225,   0.0000,   0.9997) },
+                    { label = "P1 S",            pos = Vector3.new( -2847.1106,    8.0481,    411.1591), look = Vector3.new( -0.0086,   0.0000,   1.0000) },
+                    { label = "P2 S",            pos = Vector3.new( -2842.3687,    8.0481,    397.4656), look = Vector3.new( -0.0524,   0.0000,   0.9986) },
+                    { label = "P2 Metro 555/777 8-10", pos = Vector3.new( -2842.3687,    8.0481,    397.4656), look = Vector3.new( -0.0524,   0.0000,   0.9986) },
+                },
+            },
+        },
+
+                {
+            name = "Port Benton",
+
+            to = {
+                { "Morganstown Docks", "Whitney Green" } = {
+                    { label = "P1 2-3",          pos = Vector3.new( -1649.4386,    8.0477,  -8116.1938), look = Vector3.new( -0.9987,   0.0000,  -0.0508) },
+                    { label = "P1 4",            pos = Vector3.new( -1587.6680,    8.0477,  -8107.8955), look = Vector3.new( -0.9999,   0.0000,   0.0172) },
+                    { label = "P1 S",            pos = Vector3.new( -1483.4333,    8.0477,  -8107.3721), look = Vector3.new( -0.9927,  -0.0000,   0.1203) },
+                    { label = "P3 2-3",          pos = Vector3.new( -1606.0570,    8.0477,  -8052.7241), look = Vector3.new( -0.9998,  -0.0000,   0.0221) },
+                    { label = "P3 Metro 555/777 4-5", pos = Vector3.new( -1606.0570,    8.0477,  -8052.7241), look = Vector3.new( -0.9998,  -0.0000,   0.0221) },
+                    { label = "P3 Metro ALL",    pos = Vector3.new( -1606.0570,    8.0477,  -8052.7241), look = Vector3.new( -0.9998,   0.0000,   0.0221) },
+                    { label = "P3 S",            pos = Vector3.new( -1551.0511,    8.0477,  -8053.1558), look = Vector3.new( -0.9992,   0.0000,   0.0392) },
+                    { label = "P3 Metro 555/777 8-10", pos = Vector3.new( -1536.4833,    8.0477,  -8055.3623), look = Vector3.new( -0.9931,   0.0000,   0.1170) },
+                },
+                ["Benton"] = {
+                    { label = "P2 2-3",          pos = Vector3.new( -1777.2152,    8.0477,  -8060.7646), look = Vector3.new(  0.9998,  -0.0000,  -0.0196) },
+                    { label = "P2 4",            pos = Vector3.new( -1866.7042,    8.0477,  -8058.2188), look = Vector3.new(  0.9959,  -0.0000,   0.0900) },
+                    { label = "P2 S",            pos = Vector3.new( -1929.0940,    8.0475,  -8061.1680), look = Vector3.new(  0.9988,   0.0000,   0.0492) },
+                    { label = "P3 4",            pos = Vector3.new( -1866.8580,    8.0477,  -8057.0093), look = Vector3.new(  0.9986,   0.0000,   0.0532) },
+                    { label = "P3 S",            pos = Vector3.new( -1929.1388,    8.0474,  -8060.3745), look = Vector3.new(  0.9975,   0.0000,   0.0713) },
+                },
+            },
+        },
+
+                {
+            name = "Morganstown Docks",
+
+            to = {
+                ["Port Benton"] = {
+                    { label = "P2 S",            pos = Vector3.new(  -672.9905,   23.9972,  -8064.1489), look = Vector3.new(  0.9976,  -0.0000,   0.0688) },
+                    { label = "P2 Class 730",    pos = Vector3.new(  -691.1331,   24.1413,  -8064.4873), look = Vector3.new(  0.9999,   0.0000,   0.0150) },
+                    { label = "P2 Class 195 3",  pos = Vector3.new(  -691.1331,   24.1413,  -8064.4873), look = Vector3.new(  0.9999,   0.0000,   0.0150) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "Morganstown", "Whitney Green" },
+                    markers = {
+                        { label = "P1 S",            pos = Vector3.new(  -446.6754,   24.0710,  -8113.1147), look = Vector3.new( -1.0000,  -0.0000,  -0.0010) },
+                        { label = "P1 Class 730",    pos = Vector3.new(  -431.0774,   24.0246,  -8113.2627), look = Vector3.new( -1.0000,  -0.0000,  -0.0023) },
+                        { label = "P1 Class 195 3",  pos = Vector3.new(  -431.0774,   24.0246,  -8113.2627), look = Vector3.new( -1.0000,  -0.0000,  -0.0023) },
+                    },
+                },
+            },
+        },
+
+                {
+            name = "Whitney Green",
+
+            to = {
+                ["Morganstown Docks"] = {
+                    { label = "P2 2-4",          pos = Vector3.new(  1052.3409,   28.8481,  -6973.7759), look = Vector3.new( -0.0493,   0.0000,   0.9988) },
+                    { label = "P2 Class 730",    pos = Vector3.new(  1052.8665,   25.6736,  -6987.8989), look = Vector3.new( -0.0301,   0.0000,   0.9995) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "Robinson Way", "Greenslade" },
+                    markers = {
+                        { label = "P1 2-4",          pos = Vector3.new(  1076.0659,   28.8481,  -6746.9814), look = Vector3.new(  0.0171,  -0.0000,  -0.9999) },
+                        { label = "P1 Class 730",    pos = Vector3.new(  1075.1450,   25.2969,  -6727.3237), look = Vector3.new( -0.0083,  -0.0000,  -1.0000) },
+                    },
                 },
             },
         },
