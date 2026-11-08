@@ -1,9 +1,3 @@
--- CarStopMarkers.lua
--- Station-based car markers for SCR Autopilot.
--- Per station: markers = {...} apply to any follow-up station (fallback).
--- to = { ["Next Station"] = { markers } } are used only when that station follows on the train's schedule.
--- Entry label format: "P<num|letter> <CarSpec>". Optional per-station/per-entry: route, dest.
--- Next-station sets win over fallback markers. Turnarounds resolve the reverse leg's first stop.
 return {
     stations = {
         {
