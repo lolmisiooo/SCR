@@ -1282,5 +1282,57 @@ return {
                 },
             },
         },
+
+                {
+            name = "Terminal 1",
+
+            to = {
+                ["Terminal 3"] = {
+                    { label = "P1 5",            pos = Vector3.new(-10596.0771,  -11.7035, -17931.4199), look = Vector3.new( -0.0216,  -0.0000,   0.9998) },
+                    { label = "P1 6",            pos = Vector3.new(-10596.0791,  -11.7035, -17963.0254), look = Vector3.new(  0.0020,  -0.0000,   1.0000) },
+                    { label = "P1 Class 80x 5",  pos = Vector3.new(-10596.0811,   -9.4035, -17963.0273), look = Vector3.new(  0.0020,  -0.0000,   1.0000) },
+                    { label = "P1 S",            pos = Vector3.new(-10596.0791,  -11.7035, -18083.2246), look = Vector3.new(  0.0020,  -0.0000,   1.0000) },
+                    { label = "P1 Class 80x 9-10", pos = Vector3.new(-10596.0801,   -9.4035, -18083.2246), look = Vector3.new(  0.0020,  -0.0000,   1.0000) },
+                },
+            },
+        },
+
+                {
+            name = "Airport Parkway",
+
+            to = {
+                ["Airport Central"] = {
+                    { label = "P1 2",            pos = Vector3.new( -6734.5830,   13.0991, -11610.4707), look = Vector3.new(  1.0000,  -0.0000,   0.0040) },
+                    { label = "P1 3",            pos = Vector3.new( -6833.5830,   13.0991, -11610.4707), look = Vector3.new(  1.0000,  -0.0000,   0.0080) },
+                    { label = "P1 4",            pos = Vector3.new( -6870.7822,   13.0991, -11610.4707), look = Vector3.new(  1.0000,  -0.0000,   0.0080) },
+                    { label = "P1 5",            pos = Vector3.new( -6951.3818,   13.0991, -11609.8701), look = Vector3.new(  1.0000,  -0.0000,  -0.0059) },
+                    { label = "P1 6",            pos = Vector3.new( -7093.9453,   13.0991, -11603.3018), look = Vector3.new(  0.9983,  -0.0000,  -0.0591) },
+                    { label = "P1 S",            pos = Vector3.new( -7346.8228,   10.2991, -11598.1602), look = Vector3.new(  0.9989,  -0.0000,  -0.0463) },
+                    { label = "P3 3",            pos = Vector3.new( -6833.5830,   13.0991, -11665.5703), look = Vector3.new(  1.0000,   0.0000,   0.0041) },
+                    { label = "P3 4",            pos = Vector3.new( -6870.7822,   13.0991, -11665.5703), look = Vector3.new(  1.0000,   0.0000,   0.0085) },
+                    { label = "P3 5",            pos = Vector3.new( -6951.3818,   13.0991, -11665.5703), look = Vector3.new(  1.0000,   0.0000,   0.0020) },
+                    { label = "P3 6-7",          pos = Vector3.new( -6999.6748,   13.0991, -11664.0420), look = Vector3.new(  0.9987,  -0.0000,  -0.0507) },
+                    { label = "P3 Class 80x 5",  pos = Vector3.new( -6999.6753,   11.2991, -11664.0410), look = Vector3.new(  0.9987,  -0.0000,  -0.0507) },
+                    { label = "P3 8",            pos = Vector3.new( -7067.4072,   13.0991, -11660.7559), look = Vector3.new(  0.9990,  -0.0000,  -0.0454) },
+                    { label = "P3 9-12",         pos = Vector3.new( -7141.4346,   10.8999, -11657.4932), look = Vector3.new(  0.9973,   0.0000,  -0.0730) },
+                    { label = "P3 Class 80x 9-10", pos = Vector3.new( -7141.4336,    8.9999, -11657.4932), look = Vector3.new(  0.9973,   0.0000,  -0.0730) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "Morganstown", "Hampton Hargate" },
+                    markers = {
+                        { label = "P2 S",            pos = Vector3.new( -6549.6299,   13.0493, -11633.7852), look = Vector3.new( -1.0000,   0.0000,   0.0000) },
+                        { label = "P4 3-8",          pos = Vector3.new( -6599.3330,   13.0493, -11690.3477), look = Vector3.new( -1.0000,   0.0000,   0.0000) },
+                        { label = "P4 9-12",         pos = Vector3.new( -6540.2334,   13.0493, -11690.3477), look = Vector3.new( -1.0000,   0.0000,   0.0082) },
+                        { label = "P4 Class 80x ALL", pos = Vector3.new( -6540.2334,   11.2493, -11690.3477), look = Vector3.new( -1.0000,  -0.0000,   0.0082) },
+                        { label = "P5 3-8",          pos = Vector3.new( -6599.3330,   13.0493, -11722.0479), look = Vector3.new( -1.0000,   0.0000,  -0.0040) },
+                        { label = "P5 9-12",         pos = Vector3.new( -6540.2334,   13.0493, -11722.0479), look = Vector3.new( -1.0000,   0.0000,   0.0020) },
+                        { label = "P5 Class 80x ALL", pos = Vector3.new( -6540.2329,   11.2493, -11722.0449), look = Vector3.new( -1.0000,  -0.0000,   0.0020) },
+                    },
+                },
+            },
+        },
     },
 }
