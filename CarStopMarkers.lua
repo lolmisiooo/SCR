@@ -143,6 +143,32 @@ return {
         },
 
                 {
+            name = "Benton Bridge",
+
+            to = {
+                ["Benton"] = {
+                    { label = "P3 S",            pos = Vector3.new( -2800.6604,   32.9630, -10358.4346), look = Vector3.new( -0.0000,   0.0000,  -1.0000) },
+                    { label = "P3 2-3",          pos = Vector3.new( -2795.8906,   34.1210, -10447.6973), look = Vector3.new( -0.0000,   0.0000,  -1.0000) },
+                    { label = "P4 2-3",          pos = Vector3.new( -2759.5366,   32.4401, -10448.2344), look = Vector3.new( -0.0000,   0.0000,  -1.0000) },
+                    { label = "P4 S",            pos = Vector3.new( -2773.4253,   32.4240, -10346.3340), look = Vector3.new( -0.0000,   0.0000,  -1.0000) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "Airport Parkway", "Hampton Hargate" },
+                    markers = {
+                        { label = "P1 2-3",          pos = Vector3.new( -2850.6902,   33.7429, -10653.9971), look = Vector3.new( -0.0000,   0.0000,   1.0000) },
+                        { label = "P1 S",            pos = Vector3.new( -2855.9946,   34.4333, -10740.2480), look = Vector3.new( -0.0000,   0.0000,   1.0000) },
+                        { label = "P2 2-3",          pos = Vector3.new( -2835.9814,   34.3916, -10653.9971), look = Vector3.new( -0.0000,   0.0000,   1.0000) },
+                        { label = "P2 5",            pos = Vector3.new( -2835.7100,   33.9227, -10740.2959), look = Vector3.new(  0.5736,   0.0000,   0.8192) },
+                        { label = "P2 S",            pos = Vector3.new( -2830.7454,   34.4637, -10880.2295), look = Vector3.new(  0.3746,   0.0000,   0.9272) },
+                    },
+                },
+            },
+        },
+
+                {
             name = "Newry",
 
             to = {
@@ -222,9 +248,9 @@ return {
                 },
                 ["Stepford High Street"] = {
                     { label = "P2 4",            pos = Vector3.new(   -47.2444,   28.8480,  12640.8232), look = Vector3.new( -0.0357,  -0.0000,  -0.9994) },
-                    { label = "P2 5",            pos = Vector3.new(   -27.6297,   28.8480,  12789.3301), look = Vector3.new( -0.0708,   0.0000,  -0.9975) },
-                    { label = "P2 HST 2+4",      pos = Vector3.new(   -27.6297,   28.8480,  12789.3301), look = Vector3.new( -0.0708,   0.0000,  -0.9975) },
-                    { label = "P2 Class 80x 5",  pos = Vector3.new(   -27.6297,   28.8480,  12789.3301), look = Vector3.new( -0.0708,   0.0000,  -0.9975) },
+                    { label = "P2 5",            pos = Vector3.new(   -24.0815,   32.6143,  12787.9580), look = Vector3.new( -0.4849,   0.0000,  -0.8746) },
+                    { label = "P2 HST 2+4",      pos = Vector3.new(   -23.7272,   30.6301,  12787.7617), look = Vector3.new( -0.4849,   0.0000,  -0.8746) },
+                    { label = "P2 Class 80x 5",  pos = Vector3.new(   -25.9926,   32.2194,  12788.5557), look = Vector3.new( -0.2588,   0.0000,  -0.9659) },
                     { label = "P2 HST 2+5",      pos = Vector3.new(   -29.1623,   28.8480,  12848.9717), look = Vector3.new( -0.0096,   0.0000,  -1.0000) },
                     { label = "P2 8",            pos = Vector3.new(   -29.1623,   28.8480,  12848.9717), look = Vector3.new( -0.0096,  -0.0000,  -1.0000) },
                     { label = "P2 S",            pos = Vector3.new(   -18.5037,   28.8469,  13034.5674), look = Vector3.new( -0.0654,  -0.0006,  -0.9979) },
@@ -373,6 +399,19 @@ return {
         },
 
                 {
+            name = "Upper Staploe",
+
+            to = {
+                ["Water Newton"] = {
+                    { label = "P1 S",            pos = Vector3.new(  -861.0581,   11.4945, -20919.9199), look = Vector3.new(  0.2588,   0.0000,   0.9659) },
+                },
+                ["Hampton Hargate"] = {
+                    { label = "P2 S",            pos = Vector3.new(  -834.7319,   11.3080, -20521.2363), look = Vector3.new( -0.2588,   0.0000,  -0.9659) },
+                },
+            },
+        },
+
+                {
             name = "Leighton Stepford Road",
 
             to = {
@@ -386,7 +425,7 @@ return {
                     { label = "P3 S",            pos = Vector3.new(   267.1925,    8.0481, -36423.8398), look = Vector3.new(  0.0469,  -0.0000,   0.9989) },
                     { label = "P3 Class 80x 9-10", pos = Vector3.new(   267.1925,    8.0481, -36423.8398), look = Vector3.new(  0.0469,  -0.0000,   0.9989) },
                 },
-                ["Rocked Parade"] = {
+                ["Rocket Parade"] = {
                     { label = "P4 2-4",          pos = Vector3.new(   287.1351,    8.0481, -35993.5508), look = Vector3.new( -0.0589,  -0.0000,  -0.9983) },
                     { label = "P4 5-6",          pos = Vector3.new(   287.7124,    8.0481, -35863.2539), look = Vector3.new(  0.0448,  -0.0000,  -0.9990) },
                     { label = "P4 Class 80x 5",  pos = Vector3.new(   287.7124,    8.0481, -35863.2539), look = Vector3.new(  0.0448,  -0.0000,  -0.9990) },
@@ -482,6 +521,37 @@ return {
                 },
             },
         },
+
+                {
+            name = "Carnalea Bridge",
+
+            to = {
+                ["Rayleigh Bay"] = {
+                    { label = "P1 2-3",          pos = Vector3.new( 11589.5557,   11.4686, -41020.2461), look = Vector3.new( -0.9206,   0.0000,   0.3904) },
+                    { label = "P1 S",            pos = Vector3.new( 11656.3213,   11.6625, -41014.6523), look = Vector3.new( -0.9206,   0.0000,   0.3904) },
+                },
+                ["Aslockby"] = {
+                    { label = "P1 2-3",          pos = Vector3.new( 11382.3721,   11.4804, -41003.7539), look = Vector3.new(  0.9206,   0.0000,  -0.3904) },
+                    { label = "P1 S",            pos = Vector3.new( 11303.8906,   11.4552, -41005.7031), look = Vector3.new(  0.9206,   0.0000,  -0.3904) },
+                },
+            },
+        },
+
+                {
+            name = "Aslockby",
+
+            to = {
+                ["Edgemead"] = {
+                    { label = "P1 2-3",          pos = Vector3.new(  8547.2510,   11.8476, -39324.8203), look = Vector3.new( -0.6561,   0.0000,  -0.7547) },
+                    { label = "P1 S",            pos = Vector3.new(  8550.9150,   11.7902, -39219.9102), look = Vector3.new( -0.6944,   0.0000,  -0.7196) },
+                },
+                ["Carnalea Bridge"] = {
+                    { label = "P2 2-3",          pos = Vector3.new(  8552.3350,   11.5710, -39716.7891), look = Vector3.new(  0.4540,   0.0000,   0.8910) },
+                    { label = "P2 S",            pos = Vector3.new(  8583.0088,   11.5294, -39835.9336), look = Vector3.new(  0.3904,   0.0000,   0.9206) },
+                },
+            },
+        },
+
                 {
             name = "Edgemead",
 
@@ -524,6 +594,20 @@ return {
                 },
             },
         },
+
+                {
+            name = "Faymere",
+
+            to = {
+                ["Edgemead"] = {
+                    { label = "P2 S",            pos = Vector3.new( 15490.1318,   11.5120, -37568.8906), look = Vector3.new(  0.9659,   0.0000,  -0.2589) },
+                },
+                ["Westercoast"] = {
+                    { label = "P1 S",            pos = Vector3.new( 15929.2402,   11.4883, -37635.0859), look = Vector3.new( -0.8660,   0.0000,   0.5000) },
+                },
+            },
+        },
+
         {
             name = "Westercoast",
 
@@ -541,6 +625,40 @@ return {
                     { label = "P1 S",            pos = Vector3.new( 23067.6738,    8.0481, -37663.5117), look = Vector3.new( -0.9440,   0.0000,  -0.3298) },
                     { label = "P1 Class 80x 9-10", pos = Vector3.new( 23067.6738,    8.0481, -37663.5117), look = Vector3.new( -0.9440,   0.0000,  -0.3298) },
                     { label = "P1 HST 2+5",      pos = Vector3.new( 23067.6738,    8.0481, -37663.5117), look = Vector3.new( -0.9440,   0.0000,  -0.3298) },
+                },
+            },
+        },
+
+                {
+            name = "Millcastle Racecourse",
+
+            to = {
+                ["Millcastle"] = {
+                    { label = "P1 S",            pos = Vector3.new( 27276.7637,   11.1492, -37269.4609), look = Vector3.new( -0.9848,   0.0000,   0.1736) },
+                    { label = "P1 Class 720/730", pos = Vector3.new( 27300.7676,   11.3175, -37269.5352), look = Vector3.new( -0.9744,   0.0000,   0.2250) },
+                    { label = "P2 S",            pos = Vector3.new( 27276.7852,   12.1035, -37249.0000), look = Vector3.new( -0.8910,   0.0000,   0.4540) },
+                    { label = "P2 Class 80x 5",  pos = Vector3.new( 27306.1992,   11.2496, -37247.5781), look = Vector3.new( -0.9659,   0.0000,   0.2589) },
+                },
+                ["Westercoast"] = {
+                    { label = "P3 S",            pos = Vector3.new( 26921.4902,   11.4815, -37202.2422), look = Vector3.new(  0.8910,   0.0000,  -0.4540) },
+                    { label = "P3 Class 80x 5",  pos = Vector3.new( 26900.1113,   11.1840, -37202.1836), look = Vector3.new(  0.9659,   0.0000,  -0.2589) },
+                    { label = "P4 S",            pos = Vector3.new( 26923.4004,   11.0178, -37197.2969), look = Vector3.new(  0.5736,   0.0000,   0.8192) },
+                    { label = "P4 Class 720/730", pos = Vector3.new( 26904.9902,   10.6319, -37185.0898), look = Vector3.new(  0.9744,   0.0000,  -0.2250) },
+                },
+            },
+        },
+
+                {
+            name = "Millcastle",
+
+            to = {
+                ["Westwyvern"] = {
+                    { label = "P1 S",            pos = Vector3.new( 29605.0977,   11.4553, -37259.6289), look = Vector3.new( -0.9659,   0.0000,   0.2589) },
+                    { label = "P2 S",            pos = Vector3.new( 29613.6094,   11.5199, -37232.4375), look = Vector3.new( -0.9659,   0.0000,  -0.2589) },
+                },
+                ["Millcastle Racecourse"] = {
+                    { label = "P3 S",            pos = Vector3.new( 29090.2285,   11.9222, -37220.7148), look = Vector3.new(  0.9063,   0.0000,   0.4226) },
+                    { label = "P4 S",            pos = Vector3.new( 29090.2246,   11.4210, -37192.1250), look = Vector3.new(  0.9659,   0.0000,  -0.2589) },
                 },
             },
         },
@@ -579,6 +697,19 @@ return {
                     { label = "P4 2-6",          pos = Vector3.new( 41452.8711,    8.0479, -36727.6914), look = Vector3.new(  0.9998,   0.0000,  -0.0185) },
                     { label = "P4 Class 80x 5",  pos = Vector3.new( 41452.8711,    8.0479, -36727.6914), look = Vector3.new(  0.9998,   0.0000,  -0.0185) },
                     { label = "P4 HST 2+4",      pos = Vector3.new( 41452.8711,    8.0479, -36727.6914), look = Vector3.new(  0.9998,   0.0000,  -0.0185) },
+                },
+            },
+        },
+
+                {
+            name = "Starryloch",
+
+            to = {
+                ["Northshore"] = {
+                    { label = "P1 S",            pos = Vector3.new( 45398.2539,   11.2617, -30152.0762), look = Vector3.new( -0.2588,   0.0000,  -0.9659) },
+                },
+                ["Westwyvern"] = {
+                    { label = "P2 S",            pos = Vector3.new( 45342.7852,   11.4249, -30546.4648), look = Vector3.new(  0.2588,   0.0000,   0.9659) },
                 },
             },
         },
@@ -887,6 +1018,73 @@ return {
         },
 
                 {
+            name = "Stepford East",
+
+            to = {
+                ["St Helens Bridge"] = {
+                    { label = "P1 2-3",          pos = Vector3.new(   -85.9459,   34.5232,  18919.2500), look = Vector3.new( -0.2841,   0.0000,   0.9588) },
+                    { label = "P1 4-5",          pos = Vector3.new(   -75.0949,   34.9178,  18785.7930), look = Vector3.new( -0.2841,   0.0000,   0.9588) },
+                    { label = "P1 6-7",          pos = Vector3.new(   -69.3544,   34.8769,  18714.2168), look = Vector3.new( -0.2841,   0.0000,   0.9588) },
+                    { label = "P1 S",            pos = Vector3.new(   -62.4574,   34.5612,  18663.6621), look = Vector3.new( -0.2841,   0.0000,   0.9588) },
+                    { label = "P2 2-3",          pos = Vector3.new(   -60.3870,   34.6315,  18919.2188), look = Vector3.new(  0.3006,   0.0000,   0.9538) },
+                    { label = "P2 Class 38x 3-4", pos = Vector3.new(   -60.2198,   36.2284,  18841.9746), look = Vector3.new( -0.0000,   0.0000,   1.0000) },
+                    { label = "P2 4-5",          pos = Vector3.new(   -55.8729,   35.0209,  18784.1758), look = Vector3.new(  0.3006,   0.0000,   0.9538) },
+                    { label = "P2 6-7",          pos = Vector3.new(   -46.4163,   34.5010,  18711.4258), look = Vector3.new(  0.3006,   0.0000,   0.9538) },
+                    { label = "P2 S",            pos = Vector3.new(   -41.7443,   34.8980,  18663.6719), look = Vector3.new(  0.3006,   0.0000,   0.9538) },
+                    { label = "P2 Class 38x 6-8", pos = Vector3.new(   -42.1652,   36.5768,  18686.7480), look = Vector3.new( -0.0000,   0.0000,   1.0000) },
+                    { label = "P5 3",            pos = Vector3.new(    18.9148,   33.7147,  18919.1504), look = Vector3.new( -0.2841,   0.0000,   0.9588) },
+                    { label = "P5 4-5",          pos = Vector3.new(    23.6117,   34.5283,  18816.6465), look = Vector3.new( -0.2841,   0.0000,   0.9588) },
+                    { label = "P5 6-8",          pos = Vector3.new(    35.4946,   34.5678,  18718.3613), look = Vector3.new( -0.2841,   0.0000,   0.9588) },
+                    { label = "P5 Class 80x 5",  pos = Vector3.new(    35.5483,   36.6722,  18718.3770), look = Vector3.new( -0.2843,   0.0000,   0.9587) },
+                    { label = "P5 Class 80x 9-10", pos = Vector3.new(    43.1305,   36.9307,  18582.1719), look = Vector3.new( -0.2843,   0.0000,   0.9587) },
+                    { label = "P5 S",            pos = Vector3.new(    42.8030,   34.6177,  18582.0762), look = Vector3.new( -0.2841,   0.0000,   0.9588) },
+                    { label = "P6 3",            pos = Vector3.new(    45.2752,   35.0011,  18919.1367), look = Vector3.new(  0.3006,   0.0000,   0.9538) },
+                    { label = "P6 4-5",          pos = Vector3.new(    47.4505,   34.2912,  18823.6934), look = Vector3.new(  0.3006,   0.0000,   0.9538) },
+                    { label = "P6 6-8",          pos = Vector3.new(    60.8173,   34.6631,  18713.7891), look = Vector3.new(  0.3006,   0.0000,   0.9538) },
+                    { label = "P6 Class 80x 5",  pos = Vector3.new(    60.5073,   36.3409,  18713.8906), look = Vector3.new(  0.3016,   0.0000,   0.9534) },
+                    { label = "P6 S",            pos = Vector3.new(    68.1987,   34.2375,  18581.9844), look = Vector3.new(  0.3006,   0.0000,   0.9538) },
+                    { label = "P6 Class 80x 9-10", pos = Vector3.new(    67.8233,   36.5915,  18582.1035), look = Vector3.new(  0.3007,   0.0000,   0.9537) },
+                },
+            },
+
+            sets = {
+                {
+                    next = { "Stepford Central", "City Hospital" },
+                    markers = {
+                        { label = "P3 2-3",          pos = Vector3.new(   -35.3894,   34.3927,  19156.3789), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P3 4",            pos = Vector3.new(   -34.2929,   34.0668,  19188.4180), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P3 Class 38x 3-4", pos = Vector3.new(   -33.9650,   36.7067,  19188.3145), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P3 5",            pos = Vector3.new(   -33.8619,   34.2309,  19253.3398), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P3 6-7",          pos = Vector3.new(   -33.4908,   34.3475,  19303.0195), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P3 Class 38x 6-8", pos = Vector3.new(   -33.9078,   36.7935,  19303.2656), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P3 S",            pos = Vector3.new(   -33.3888,   34.2445,  19387.1875), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P4 2-3",          pos = Vector3.new(    -8.9786,   34.3847,  19156.3281), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P4 4",            pos = Vector3.new(    -8.5299,   34.2461,  19188.4824), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P4 Class 38x 3-4", pos = Vector3.new(     4.8935,   22.9763,  19188.2832), look = Vector3.new( -0.0000,   0.0000,  -1.0000) },
+                        { label = "P4 5",            pos = Vector3.new(    -7.8132,   34.4074,  19253.2578), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P4 6-7",          pos = Vector3.new(    -7.4432,   34.8631,  19303.1680), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P4 S",            pos = Vector3.new(    -7.6892,   37.3276,  19387.2949), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P4 Class 38x 6-8", pos = Vector3.new(     5.7305,   23.1637,  19304.8320), look = Vector3.new( -0.0000,   0.0000,  -1.0000) },
+                        { label = "P7 3",            pos = Vector3.new(    70.5330,   34.5706,  19151.0781), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P7 4",            pos = Vector3.new(    70.9728,   34.2066,  19183.3242), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P7 5",            pos = Vector3.new(    71.4872,   34.4863,  19248.2188), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P7 Class 80x 5",  pos = Vector3.new(    71.9256,   36.8901,  19248.0801), look = Vector3.new( -0.3016,   0.0000,  -0.9534) },
+                        { label = "P7 6-8",          pos = Vector3.new(    72.2125,   34.6000,  19297.7871), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P7 Class 80x 9-10", pos = Vector3.new(    72.3466,   36.9007,  19410.9473), look = Vector3.new( -0.2997,   0.0000,  -0.9540) },
+                        { label = "P7 S",            pos = Vector3.new(    72.3696,   34.5489,  19410.9414), look = Vector3.new( -0.3006,   0.0000,  -0.9538) },
+                        { label = "P8 Class 80x 9-10", pos = Vector3.new(    97.5271,   37.1481,  19411.0996), look = Vector3.new(  0.2843,   0.0000,  -0.9587) },
+                        { label = "P8 S",            pos = Vector3.new(    97.1991,   34.3471,  19411.0039), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P8 3",            pos = Vector3.new(    95.8638,   34.4573,  19151.0234), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P8 4",            pos = Vector3.new(    96.2896,   34.4423,  19183.1699), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P8 5",            pos = Vector3.new(    97.7308,   34.6667,  19248.1602), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                        { label = "P8 Class 80x 5",  pos = Vector3.new(    97.3763,   36.8270,  19248.0586), look = Vector3.new(  0.2843,   0.0000,  -0.9587) },
+                        { label = "P8 6-8",          pos = Vector3.new(    97.4384,   34.5934,  19297.8750), look = Vector3.new(  0.2841,   0.0000,  -0.9588) },
+                    },
+                },
+            },
+        },
+
+                {
             name = "Stepford High Street (Metro)",
 
             to = {
@@ -956,6 +1154,34 @@ return {
                 },
             },
         },
+
+                {
+            name = "Woodhead Lane",
+
+            to = {
+                ["Stepford United Football Club"] = {
+                    { label = "P2 S",            pos = Vector3.new(-12688.9199,    8.4154,  15278.6230), look = Vector3.new( -0.8572,   0.0000,   0.5150) },
+                },
+                ["Houghton Rake"] = {
+                    { label = "P1 S",            pos = Vector3.new(-12595.3145,    8.1157,  15294.9082), look = Vector3.new(  0.8572,   0.0000,  -0.5150) },
+                },
+            },
+        },
+
+                {
+            name = "Houghton Rake",
+
+            to = {
+                ["Woodhead Lane"] = {
+                    { label = "P2 S",            pos = Vector3.new(-15653.2686,    8.7032,  15981.4209), look = Vector3.new( -0.8988,   0.0000,   0.4383) },
+                },
+                ["Whitefield"] = {
+                    { label = "P1 S",            pos = Vector3.new(-16045.6836,    9.2801,  16087.6416), look = Vector3.new(  0.8988,   0.0000,  -0.4383) },
+                },
+            },
+        },
+
+        
 
                 {
             name = "New Harrow",
@@ -1399,6 +1625,20 @@ return {
             },
         },
 
-        
+                {
+            name = "Rocket Parade",
+
+            to = {
+                ["Leighton Stepford Road"] = {
+                    { label = "P1 S",            pos = Vector3.new(   235.5534,   12.7134, -33092.0117), look = Vector3.new(  0.1736,   0.0000,   0.9848) },
+                },
+                ["Water Newton"] = {
+                    { label = "P2 2-3",          pos = Vector3.new(   269.1977,   11.6427, -32854.1367), look = Vector3.new( -0.1736,   0.0000,  -0.9848) },
+                    { label = "P2 4",            pos = Vector3.new(   262.5808,   11.6863, -32751.8184), look = Vector3.new( -0.1736,   0.0000,  -0.9848) },
+                    { label = "P2 5",            pos = Vector3.new(   256.3164,   11.2501, -32694.6055), look = Vector3.new( -0.1736,   0.0000,  -0.9848) },
+                    { label = "P2 S",            pos = Vector3.new(   236.6706,   11.9824, -32562.3828), look = Vector3.new( -0.1736,   0.0000,  -0.9848) },
+                },
+            },
+        },
     },
 }
