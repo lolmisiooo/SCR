@@ -1503,6 +1503,19 @@ return {
             },
         },
 
+            name = "Greenslade",
+
+            to = {
+                ["Denton Road"] = {
+                    { label = "P4 2-4",          pos = Vector3.new(  1005.7750,   32.2607,  -1812.3027), look = Vector3.new( -0.2588,   0.0000,  -0.9659) },
+                    { label = "P1 Metro ALL",    pos = Vector3.new(  1074.5750,   32.3999,  -1835.9153), look = Vector3.new( -0.5592,   0.0000,  -0.8290) },
+                },
+                ["Whitney Green"] = {
+                    { label = "P4 Metro ALL",    pos = Vector3.new(   985.6917,   32.3999,  -2075.9424), look = Vector3.new(  0.5592,   0.0000,   0.8290) },
+                },
+            },
+        },
+
                 {
             name = "Terminal 1",
 
